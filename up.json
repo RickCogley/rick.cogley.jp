@@ -5,7 +5,10 @@
       "domain": "staging.rick.cogley.jp"
     },
     "production": {
-      "domain": "rick.cogley.jp"
+      "domain": "rick.cogley.jp",
+      "lambda": {
+        "warm": true
+      }
     }
   },
   "type": "static",
