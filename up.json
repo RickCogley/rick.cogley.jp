@@ -23,5 +23,12 @@
   "profile": "apex-up-esolia",
   "regions": [
     "ap-northeast-1"
-  ]
+  ],
+  "error_pages": {
+    "enable": true,
+    "variables": {
+      "support_email": "rick@cogley.jp",
+      "color": "#228ae6"
+    }
+  }
 }
