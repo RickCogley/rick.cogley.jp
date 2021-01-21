@@ -1,0 +1,24 @@
+{
+  "name": "rick-cogley-current-events",
+  "stages": {
+    "staging": {
+      "domain": "staging.rick.cogley.jp"
+    },
+    "production": {
+      "domain": "rick.cogley.jp"
+    }
+  },
+  "type": "static",
+  "static":{
+    "dir": "html"
+  },
+  "tags": {
+    "Owner": "RickCogley",
+    "AppName": "RickCogleyCurrentEvents",
+    "PoweredBy": "ApexUp"
+  },
+  "profile": "apex-up-esolia",
+  "regions": [
+    "ap-northeast-1"
+  ]
+}
