@@ -1,5 +1,10 @@
 {
   "name": "rick-cogley-current-events",
+  "hooks": {
+    "clean": [
+      "up prune -s production -r 10"
+    ]
+  },
   "stages": {
     "staging": {
       "domain": "staging.rick.cogley.jp"
@@ -7,7 +12,9 @@
     "production": {
       "domain": "rick.cogley.jp",
       "lambda": {
-        "warm": true
+        "warm": true,
+        "memory": 1024,
+        "accelerate": true
       }
     }
   },
