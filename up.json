@@ -22,6 +22,15 @@
   "static":{
     "dir": "html"
   },
+  "headers": {
+    "/*": {
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "X-Frame-Options": "SAMEORIGIN",
+      "Referrer-Policy": "strict-origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Powered-By": "Apex"
+    }
+  },
   "tags": {
     "Owner": "RickCogley",
     "AppName": "RickCogleyCurrentEvents",
