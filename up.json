@@ -14,7 +14,8 @@
       "lambda": {
         "warm": true,
         "memory": 1024,
-        "accelerate": true
+        "accelerate": true,
+        "runtime": "nodejs14.x"
       }
     }
   },
