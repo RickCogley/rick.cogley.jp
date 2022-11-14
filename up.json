@@ -7,7 +7,8 @@
   },
   "stages": {
     "staging": {
-      "domain": "staging.rick.cogley.jp"
+      "domain": "staging.rick.cogley.jp",
+      "runtime": "nodejs16.x"
     },
     "production": {
       "domain": "rick.cogley.jp",
@@ -15,7 +16,7 @@
         "warm": true,
         "memory": 1024,
         "accelerate": true,
-        "runtime": "nodejs14.x"
+        "runtime": "nodejs16.x"
       }
     }
   },
