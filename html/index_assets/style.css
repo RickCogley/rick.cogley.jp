@@ -1,6 +1,6 @@
 .blue { color: #0074D9; }
 .bg-blue { background-color: #0074D9; }
-.sitefont {font-family: 'IBM Plex Mono', monospace;}
+/* .sitefont {font-family: 'IBM Plex Mono', monospace;} */
 
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 400 to 900 */
