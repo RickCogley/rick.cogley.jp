@@ -2,6 +2,24 @@
 .bg-blue { background-color: #0074D9; }
 .sitefont {font-family: 'IBM Plex Mono', monospace;}
 
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 400 to 900 */
+
+.sitefont-400 {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sitefont-700 {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 /*
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 */
