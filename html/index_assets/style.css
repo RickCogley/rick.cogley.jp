@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 /*
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
