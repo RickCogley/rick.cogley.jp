@@ -1,0 +1,27 @@
+metas:
+  type: "website"
+  site: "=site.title"
+  title: "=title"
+  lang: "ja"
+  description: "=description"
+  image: /assets/rick_cogley_mono.JPG
+  # icon: /assets/img/apple-touch-icon.png
+  keywords: [
+    Rick Cogley,
+    Current Events,
+    Web Design,
+    Web Development,
+    Japan,
+    Yokohama,
+  ]
+  generator: true
+  color: "#ffbc68"
+  robots: true
+  bluesky: "@rickcogley"
+  "bluesky:label1": Author
+  "bluesky:data1": "=site.author"
+site:
+  title: "Rick Cogley Current Events"
+  author: "Rick Cogley"
+  description: "Rick Cogley's public current events page is where I write what is going on personally and professionally."
+  navbgcolor: "dark-pink"
