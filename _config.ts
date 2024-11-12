@@ -61,7 +61,7 @@ site.use(transformImages({
 }));
 site.use(brotli());
 
-site.copy("assets", "assets");
+site.copy("assets");
 // site.copy("static/portfolio", "portfolio");
 site.copy([".gif",".pdf",".docx",".pptx",".xlsx",".zip",".svg"]);
 site.copyRemainingFiles();

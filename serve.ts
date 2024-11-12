@@ -1,5 +1,5 @@
 import Server from "lume/core/server.ts";
-import { basicAuth } from "lume/middlewares/basic_auth.ts";
+//import { basicAuth } from "lume/middlewares/basic_auth.ts";
 import precompress from "lume/middlewares/precompress.ts";
 import expires from "lume/middlewares/expires.ts";
 import csp from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/csp/mod.ts";
@@ -12,25 +12,25 @@ const server = new Server({
 });
 
 // Set the var in your Deno Deploy project environment variables.
-const myUSER_1_PASS = Deno.env.get("USER_1_PASS");
-const middleware = basicAuth({
-  users: {
-    "guest": `${myUSER_1_PASS}`,
-  },
-  errorMessage: "401 Unauthorized, contact site owner for access.",
-});
+// const myUSER_1_PASS = Deno.env.get("USER_1_PASS");
+// const middleware = basicAuth({
+//   users: {
+//     "guest": `${myUSER_1_PASS}`,
+//   },
+//   errorMessage: "401 Unauthorized, contact site owner for access.",
+// });
 
-server.use((req, next) => {
-  if (isProtected(req)) {
-    return middleware(req, next);
-  }
-  return next(req);
-});
+// server.use((req, next) => {
+//   if (isProtected(req)) {
+//     return middleware(req, next);
+//   }
+//   return next(req);
+// });
 
-function isProtected(req) {
-  const url = new URL(req.url);
-  return url.pathname.includes("/private/");
-}
+// function isProtected(req) {
+//   const url = new URL(req.url);
+//   return url.pathname.includes("/private/");
+// }
 
 // assumes you are precompressing, say with the brotli plugin
 server.use(precompress());
