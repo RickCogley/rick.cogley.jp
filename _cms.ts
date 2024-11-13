@@ -58,7 +58,8 @@ cms.document({
         step: 0.1,
       },
     },
-    "content: markdown",
+    "bio: markdown",
+    "nowprofessionally: markdown",
   ],
 });
 
