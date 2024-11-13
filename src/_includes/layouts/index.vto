@@ -144,7 +144,19 @@ layout: layouts/base.vto
         </span>
       </div>
     </div>
+
+<ul>
+testlist {{> console.log(it.photos) }}
+  {{ for file of search.files("/assets/*.jpg") }}
+  {{> console.log(it.photos[file]) }}
+  <li><a href="{{ file }}">
+    {{ it.photos[file] }}
+  </a></li>
+  {{ /for }}
+</ul>
+
   </section>
+
 
 
 </article>
