@@ -150,7 +150,7 @@ testlist {{> console.log(it.photos) }}
   {{ for file of search.files("/assets/*.jpg") }}
   {{> console.log(it.photos[file]) }}
   <li><a href="{{ file }}">
-    {{ it.photos[file] }}
+    {{ it.photos[file] |> JSON.stringify }}
   </a></li>
   {{ /for }}
 </ul>
