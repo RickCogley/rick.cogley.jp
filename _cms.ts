@@ -60,6 +60,7 @@ cms.document({
     },
     "bio: markdown",
     "nowprofessionally: markdown",
+    "nowpersonally: markdown",
   ],
 });
 
