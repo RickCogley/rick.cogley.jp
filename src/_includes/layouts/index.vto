@@ -1,0 +1,154 @@
+---
+layout: layouts/base.vto
+---
+<!-- ===== START LAYOUT: HOME ===== -->
+
+  <div data-name="component">
+  <article class="cf pa3 mw9 center">
+  <header class="fl w-100 w-50-l pa3-m pa4-l mb3 mb5-l">
+    <h1 class="lh-title f3 b mt0 alegreya-700">
+        {{ bio |> vto }}
+    </h1>
+    <p class="i black-50">Last Modified: {{ date |> date("HUMAN_DATETIME")}}</p>
+  </header>
+  <section class="fl w-100">
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <h3 class="f4 bold center mw6 alegreya-700"><span class="dark-pink">Identity</span> & Sharing</h3>
+        <p class="f6 lh-copy measure">
+              <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
+                {{ for item of identity.links }}
+                <li class="ph3 pv3 bb b--light-silver"><span class="dark-green">{{ item.icon |> phosphor("duotone") }}</span> <a href="item.url" target="_blank">{{ item.title }}</a>
+                </li>
+                {{ /for }}
+              </ul>
+         </p>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <h3 class="f4 bold center mw6 alegreya-700"><span class="dark-pink">Now</span> Professionally</h3>
+      {{ nowprofessionally |> vto }}
+
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <h3 class="f4 bold center mw6 alegreya-700"><span class="dark-pink">Now</span> Personally</h3>
+      {{ nowpersonally |> vto }}
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
+      <h3 class="f4 bold center mw6 alegreya-700"><span class="dark-pink">Wise</span> Words</h3>
+      {{ for item of quotes }}
+      <p class="f6 lh-copy measure">
+        <em>“{{ item.text }}”</em> <br><strong>― {{ item.source }}</strong>
+      </p>
+      {{ /for }}
+
+
+    </div>
+  </section>
+  <section class="fl w-100">
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Maru-2024.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Our Shiba "Maru" at 3 and a half years</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Snake-Eye-Sushi-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Snake Eye Sushi near the office in Toranomon Tokyo</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Sweet-King-Mikan-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Sweet "Sweet King Mikan" tangerines</em>
+          </span>
+          </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Bikes-Slow-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Extra Slow Bikes on the Kashio River in Totsuka Yokohama</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Kushi-Katsu-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Kushi Katsu joint next to the office in Toranomon Tokyo</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 br1">
+        <span style="background-image:url();" class="dt cover bg-center aspect-ratio--object grow-large"></span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Frenemies-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Cats sizing each other up in Yokohama</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Bright-Yellow-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>A very yellow building but you can't know that...</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 br1">
+        <span style="background-image:url();" class="dt cover bg-center aspect-ratio--object grow-large"></span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Rent-Going-Up-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Uh oh, the rent will go up now in Toranomon</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Latex-Pudding-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>A very interesting pudding that comes in a latex sheath</em>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
+      <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
+        <span style="background-image:url(/assets/JRC-Cable-Bite-33pct.jpg);" class="dt cover bg-center aspect-ratio--object grow-large hide-child br1">
+          <span class="white dtc v-mid w-100 h-100 child bg-black-40 pa5 br1">
+             <em>Cute cable bite from my daughter</em>
+          </span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+
+</article>
+</div>
+
+
+<!-- ===== END LAYOUT: HOME ===== -->

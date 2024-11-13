@@ -2,30 +2,17 @@
 <!-- Icons from Phosphor -->
 <footer style="background-image:url(/assets/footer_bg1sm.gif);" class="tc-l bg-center cover bg-black">
   <div class="w-100 ph3 pv5 bg-black-70">
-    <a
-      rel="me"
-      class="link white-90 bg-transparent hover-red inline-flex items-center ma2 tc br2 pa2"
-      href="https://bsky.app/profile/cogley.jp"
-      title="bluesky"
-    >{{ "butterfly" |> phosphor("duotone") }}
-      <span class="f6 ml3 pr2">Bluesky</span>
-    </a>
-    <a
-    rel="me"
-    class="link white-90 bg-transparent hover-red inline-flex items-center ma2 tc br2 pa2"
-    href="https://micro.blog/rickcogley?remote_follow=1"
-    title="mastodon"
-  >{{ "mastodon-logo" |> phosphor("duotone") }}
-    <span class="f6 ml3 pr2">Mastodon</span>
-    </a>
-    <a
-      rel="me"
-      class="link white-90 bg-transparent hover-red inline-flex items-center ma2 tc br2 pa2"
-      href="https://github.com/rickcogley"
-      title="GitHub"
-    >{{ "github-logo" |> phosphor("duotone") }}
-      <span class="f6 ml3 pr2">GitHub</span>
-    </a>
+    <span class="white-70"><small>©{{ "now" |> date("y") }} {{ site.author }}</small></span><br>
+    {{ for item of footer.links }}
+      <a
+        rel="me"
+        class="link white-90 bg-transparent hover-{{ item.hovercolor }} inline-flex items-center ma2 tc br2 pa2"
+        href="{{ item.url }}"
+        title="{{ item.title }}"
+      >{{ item.icon |> phosphor("duotone") }}
+        <span class="f6 ml3 pr2">{{ item.title }}</span>
+      </a>
+    {{ /for }}
   </div>
 </footer>
 <!-- ===== END TEMPLATE: FOOTER ===== -->
