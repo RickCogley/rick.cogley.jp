@@ -39,6 +39,7 @@ build/Release
 
 # Build directories
 dist
+_site
 bundle
 
 # Node Dependency directory
