@@ -66,6 +66,9 @@ site.copy("assets");
 site.copy([".gif",".pdf",".docx",".pptx",".xlsx",".zip",".svg"]);
 site.copyRemainingFiles();
 
+site.ignore("*.DS_Store");
+site.ignore("archive");
+
 // Create zip and tree scripts
 site.script(
   "zipsite",
