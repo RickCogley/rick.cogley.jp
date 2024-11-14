@@ -4,7 +4,7 @@
     <title>My RSS Feed</title>
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.rss" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 13 Nov 2024 10:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 07:21:06 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.4.2</generator>
     <item>
