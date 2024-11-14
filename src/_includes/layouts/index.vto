@@ -9,7 +9,9 @@ layout: layouts/base.vto
     <h1 class="lh-title f3 b mt0 alegreya-700">
         {{ bio |> vto }}
     </h1>
-    <p class="i black-50">Last Modified: {{ date |> date("HUMAN_DATETIME")}}</p>
+    <p class="i black-50">
+    <strong>Last Modified:</strong> {{ date |> date("HUMAN_DATETIME")}}<br>
+    <strong>Today is:</strong> {{ todaysDateENUS }}{{ set today = todaysDateYYYYMMDD }}{{ if holidays[today] }} ({{ holidays[today] }}){{ /if }}</p>
   </header>
   <section class="fl w-100">
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
