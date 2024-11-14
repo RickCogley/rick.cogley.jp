@@ -1,7 +1,34 @@
-# dictionary
+# dictionary, path is the key for indexing, don't forget the colon
+/assets/JRC-Maru-Shiba-2021.jpg:
+  title: Maru Shiba 2021
+  alt: Our Shiba 'Maru' as a puppy
+/assets/JRC-Maru-Shiba-2024.jpg:
+  title: Maru Shiba 2024
+  alt: Our Shiba 'Maru' at 3 and a half years
+/assets/JRC-Snake-Eye-Sushi.jpg:
+  title: Snake Eye Sushi
+  alt: Snake Eye Sushi near the office in Toranomon Tokyo
+/assets/JRC-Sweet-King-Mikan.jpg:
+  title: Sweet King Mikan
+  alt: Some "Sweet King Mikan" Tangerines from Ehime Prefecture
+/assets/JRC-Bikes-Slow.jpg:
+  title: Slow Bikes on the River
+  alt: Extra Slow Bikes on the Kashio River in Totsuka Yokohama
 /assets/JRC-Kushi-Katsu.jpg:
   title: Kushi Katsu
-  alt: Photo of Kushi Katsu
+  alt: Kushi Katsu joint next to the office in Toranomon Tokyo
+/assets/JRC-Frenemies.jpg:
+  title: Frenemies
+  alt: Cats sizing each other up in Yokohama
 /assets/JRC-Bright-Yellow.jpg:
   title: Bright Yellow
-  alt: Photo of Bright Yellow
+  alt: A very yellow building but you can't know that...
+/assets/JRC-Rent-Going-Up.jpg:
+  title: Rent Going Up
+  alt: Uh oh, the rent will go up now in Toranomon
+/assets/JRC-Latex-Pudding.jpg:
+  title: Latex Pudding
+  alt: A very interesting pudding that comes in a latex sheath
+/assets/JRC-Cable-Bite.jpg:
+  title: Cable Bite
+  alt: Cute cable bite from my daughter
