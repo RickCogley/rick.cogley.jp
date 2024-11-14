@@ -44,7 +44,39 @@ cms.document({
   store: "gh:index.yml",
   fields: [
     "title: text",
-    "description: text",
+    {
+      name: "metas",
+      type: "object",
+      fields: [
+        {
+          name: "title",
+          type: "text",
+          label: "Title of the Page",
+          description: "Visible in browser tab and page source head section",
+          attributes: {
+            required: true,
+          },
+        },
+        {
+          name: "description",
+          type: "textarea",
+          label: "Description for the Page",
+          description: "Visible in search engine results",
+          attributes: {
+            required: true,
+          },
+        },
+        {
+          name: "image",
+          type: "file",
+          description: "Image to link in head metadata.",
+          attributes: {
+            accept: "image/*",
+            required: true,
+          },
+        },
+      ],
+    },
     {
       name: "priority",
       type: "number",
