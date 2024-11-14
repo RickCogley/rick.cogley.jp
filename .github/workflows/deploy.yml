@@ -3,12 +3,12 @@ name: Publish on Deno Deploy
 on:
   push:
     # Run on main branch pushes
-    branches: [master]
+    branches: [main]
   # Allow to manually trigger the workflow
   workflow_dispatch:
   schedule:
     # Rebuild every day at 8:04 PM UTC
-    - cron: '4 20 * * *'
+    - cron: "4 20 * * *"
 
 jobs:
   build:
