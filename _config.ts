@@ -22,6 +22,7 @@ import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
 import picture from "lume/plugins/picture.ts";
 import transformImages from "lume/plugins/transform_images.ts";
 import brotli from "lume/plugins/brotli.ts";
+import onDemand from "lume/plugins/on_demand.ts";
 
 const site = lume(
   {
@@ -60,6 +61,16 @@ site.use(transformImages({
   matches: /\.(jpg|jpeg|png|webp)$/i, // This regex matches only image files
 }));
 site.use(brotli());
+site.use(onDemand({
+  extraData(request: Request) {
+    const searchParams = new URL(request.url).searchParams;
+    const params = Object.fromEntries(searchParams.entries());
+
+    return {
+      params,
+    };
+  },
+}));
 
 site.copy("assets");
 // site.copy("static/portfolio", "portfolio");
