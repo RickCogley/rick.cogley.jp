@@ -1,3 +1,4 @@
+import site from "./_config.ts";
 import Server from "lume/core/server.ts";
 //import { basicAuth } from "lume/middlewares/basic_auth.ts";
 import precompress from "lume/middlewares/precompress.ts";
