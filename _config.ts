@@ -19,8 +19,8 @@ import source_maps from "lume/plugins/source_maps.ts";
 import sri from "lume/plugins/sri.ts";
 import terser from "lume/plugins/terser.ts";
 import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
-import picture from "lume/plugins/picture.ts";
-import transformImages from "lume/plugins/transform_images.ts";
+// import picture from "lume/plugins/picture.ts";
+// import transformImages from "lume/plugins/transform_images.ts";
 import brotli from "lume/plugins/brotli.ts";
 import onDemand from "lume/plugins/on_demand.ts";
 
@@ -55,11 +55,10 @@ site.use(source_maps());
 site.use(sri());
 site.use(terser());
 site.use(phosphor());
-site.use(picture(/* Options */));
-site.use(transformImages({
-  cache: true, // Toggle cache
-  matches: /\.(jpg|jpeg|png|webp)$/i, // This regex matches only image files
-}));
+// site.use(picture(/* Options */));
+// site.use(transformImages({
+//   cache: true, // Toggle cache
+// }));
 site.use(brotli());
 site.use(onDemand({
   extraData(request: Request) {
