@@ -67,6 +67,7 @@ site.use(onDemand({
 
     return {
       params,
+      request,
     };
   },
 }));
