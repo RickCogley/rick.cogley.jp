@@ -1,4 +1,5 @@
 import lume from "lume/mod.ts";
+import googleFonts from "lume/plugins/google_fonts.ts";
 import attributes from "lume/plugins/attributes.ts";
 import base_path from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
@@ -30,6 +31,15 @@ const site = lume(
     location: new URL("https://rick.cogley.jp"),
   },
 );
+
+site.use(googleFonts({
+  cssFile: "styles.css",
+  placeholder: "/* lume-google-fonts-here */",
+  fonts: {
+    display: "https://fonts.google.com/share?selection.family=Alegreya+Sans+SC:wght@300",
+    text: "https://fonts.google.com/share?selection.family=Alegreya:ital,wght@0,400..900;1,400..900",
+    textjp: "https://fonts.google.com/share?selection.family=Zen+Maru+Gothic:wght@700&display=swap",
+}}));
 
 site.use(attributes());
 site.use(base_path());

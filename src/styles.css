@@ -2,31 +2,31 @@
 .bg-blue { background-color: #0074D9; }
 
 :root {
-    .alegreya-400 {
-        font-family: "Alegreya", serif;
+    .text-400 {
+        font-family: "text", serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
       }
-    .alegreya-700 {
-        font-family: "Alegreya", serif;
+    .text-700 {
+        font-family: "text", serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
       }
-    .alegreya-sans-sc-light {
-        font-family: "Alegreya Sans SC", sans-serif;
+    .display {
+        font-family: "display", sans-serif;
         font-weight: 300;
         font-style: normal;
       }
-    .zen-maru-gothic-700 {
-        font-family: "Zen Maru Gothic", serif;
+    .textjp-700 {
+        font-family: "textjp", serif;
         font-weight: 700;
         font-style: normal;
       }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: "Alegreya", serif;
+        font-family: "text", serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
@@ -37,7 +37,7 @@ html {
     background-color: #52013f;
 }
 main {
-    font-family: "Alegreya", serif;
+    font-family: "text", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -159,3 +159,5 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     .hljs-strong {
     font-weight: bold;
     }
+
+    /* lume-google-fonts-here */
