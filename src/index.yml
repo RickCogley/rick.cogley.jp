@@ -5,61 +5,57 @@ id: home
 lang: ja
 metas:
   title: Landing
-  description: Top page of the site, showing Rick Cogley's current events.
+  description: 'Top page of the site, showing Rick Cogley''s current events.'
+  image: /assets/rick-cogley-mono.jpg
 priority: 1
 ldPerson: true
-
-bio: |
-  <span class="black-40">Rick Cogley</span> has been sticking out like a sore thumb in Japan since 1987! <span class="textjp-700 f4">日本語も</span>OK. CEO & Founder, eSolia. <br>I <span class="f3 dark-pink">{{ "heart" |> phosphor("duotone") }}</span> family, our Shiba "Maru", coding & scripting, moving. <br>Yokohama ⇆ Tokyo</span>
-
+bio: "<span class=\"black-40\">Rick Cogley</span> has been sticking out like a sore thumb in Japan since 1987! <span class=\"textjp-700 f4\">日本語も</span>OK. CEO & Founder, eSolia. <br>I <span class=\"f3 dark-pink\">{{ \"heart\" |> phosphor(\"duotone\") }}</span> family, our Shiba \"Maru\", coding & scripting, moving. <br>Yokohama ⇆ Tokyo</span>\r\n"
 identity:
   links:
     - title: Proven.lol Proof
-      url: https://proven.lol/58ae5f
+      url: 'https://proven.lol/58ae5f'
       icon: user-circle-check
     - title: PGP Public Key
-      url: https://keys.openpgp.org/vks/v1/by-fingerprint/E8404D8E8DAB59CD1E5255BD56BCDEBC6448A091
+      url: >-
+        https://keys.openpgp.org/vks/v1/by-fingerprint/E8404D8E8DAB59CD1E5255BD56BCDEBC6448A091
       icon: fingerprint
     - title: Git Repo for this Site
-      url: https://github.com/RickCogley/rick.cogley.jp
+      url: 'https://github.com/RickCogley/rick.cogley.jp'
       icon: github-logo
-
-nowprofessionally: |
-  <p class="f6 lh-copy measure">
-    <strong>eSolia is 25</strong>, which we're really proud of! 🎉🥳🎊
-    <br><br>
-    eSolia has been in our "WorkStyling" location at Shiodome near Shimbashi, for a couple of years now after 10 years in Toranomon. We decided to move to a serviced office after having our office sit empty during COVID. Although our fixed office is small, it is fine for us because our staff are roaming around all the time anyway, and WorkStyling allows us to use their facilities all over the city.  <br><br>
-
-    As a professional services company, we need to increase our process maturity so our success depends less upon individual quality, rather having that quality built in by default. It was a sea change to move to a remote or mobile office situation, and we took advantage of the situation to really revamp how we do things. We migrated everything to Microsoft M365 early in 2023, and have been working hard on becoming compliant with ISO 27001 so that we have a solid information security program in place. <br><br>
-
-    Initially we tried to implement workflow via Sharepoint, but it requires more development resources than we are willing to commit, so we are focusing on handling our workflow in our cloud database - PROdb - and using its mobile app to initiate much of our workflow. So far, this is working out pretty well. We use Sharepoint for what it's good at, which is to act as a basic intranet and file store, with version tracking. We also use the the truly excellent <a href="https://webhook.site/" target="_blank">webhook.site</a> to seamlessly integrate between our systems, <a href="https://updown.io/" target="_blank">updown.io</a> for monitoring, and <a href="https://usefathom.com/" target="_blank">Fathom Analytics</a> for website and app analytics. <br><br>
-
-    Some superior services I'm working with recently are <a href="https://postmarkapp.com" target="_blank">Postmark</a> for sending transactional and broadcast emails, <a href="https://improvmx.com" target="_blank">ImprovMX</a> for flexibly receiving and forwarding email, <a href="https://www.usebouncer.com/" target="_blank">Bouncer</a> for validating and verifying email addresses, and <a href="https://deno.com/deploy" target="_blank">Deno Deploy</a> and <a href="https://www.netlify.com/" target="_blank">Netlify</a> for efficiently hosting websites.
-  </p>
-
-nowpersonally: |
-  <p class="f6 lh-copy measure">
-    It has been a busy six months. At work we launched an office in May, and another in Oct, and I have been just struggling to feel really rested. I went to the US for a visit in Aug, but then felt completely "brain fogged" for a good 6 weeks. Not the best, from a mental health perspective, but I think that is past now. 🍀<br><br>
-
-    A few minutes a day I enjoy watching some series on streaming services like Netflix or Apple. I didn't see Dune 2 in a theater, but really enjoyed it on the TV. What a wonderful production; Villeneuve did a great job. 😻<br><br>
-
-    In May 2021, our Shiba "Maru" came to our home, and it'd been big lifestyle change with him in our lives. We have fallen into a rhythm with him, and have found a day care he loves to go to - <a href="http://www.petcaregreen.com/" target="_blank">Petcare House Green</a>, in neighboring Fujisawa. Although of course we love him to bits, it's sometimes good to have a day to reset and not worry about walks and so on. We tried various other places, but he didn't take to them for whatever reason, so we are really glad to have found "Green". He gets excited when he gets to go, which is cut to see, and really loves the lady who comes to pick him up. He's always a little irritated when he comes back though, probably stress from being with some dogs he likes and one or two that he doesn't. He has a routine when he comes back: he rips his bedding out of his crate, and violently shakes it. 🫨<br><br>
-
-    This summer I just did not have time to go hiking at all, despite really liking it. Instead I just jogged a lot, and got some "barefoot sandals" from Xero to jog in, which was interesting. I'm wearing normal sneakers now as it's cold, but they feel totally weird under foot.  <br><br>
-
-    We are finally selling our land next door, but the buyer is grousing about whether they can actually buy it at the price they promised. Our point to selling it is, there's nothing on it, so it requires gardening maintenance throughout the warm months, and we have to pay tax on it. We are selling it to make our retirement easier, but there are some risks with having new houses then new people moving in. <br><br>
-
-    I continue to be impressed with my <a href="https://ultimatehackingkeyboard.com/" target="_blank">Ultimate Hacking Keyboard 60 v2</a>, a split design where one's wrists can be kept straight. It has helped with my wrist pain. Now they have released a slightly bigger version, which I think I now "need". ⌨️<br><br>
-  </p>
-
+nowprofessionally: "<p class=\"f6 lh-copy measure\">\r\n  <strong>eSolia is 25</strong>, which we're really proud of! \U0001F389\U0001F973\U0001F38A\r\n  <br><br>\r\n  eSolia has been in our \"WorkStyling\" location at Shiodome near Shimbashi, for a couple of years now after 10 years in Toranomon. We decided to move to a serviced office after having our office sit empty during COVID. Although our fixed office is small, it is fine for us because our staff are roaming around all the time anyway, and WorkStyling allows us to use their facilities all over the city.  <br><br>\r\n\r\n  As a professional services company, we need to increase our process maturity so our success depends less upon individual quality, rather having that quality built in by default. It was a sea change to move to a remote or mobile office situation, and we took advantage of the situation to really revamp how we do things. We migrated everything to Microsoft M365 early in 2023, and have been working hard on becoming compliant with ISO 27001 so that we have a solid information security program in place. <br><br>\r\n\r\n  Initially we tried to implement workflow via Sharepoint, but it requires more development resources than we are willing to commit, so we are focusing on handling our workflow in our cloud database - PROdb - and using its mobile app to initiate much of our workflow. So far, this is working out pretty well. We use Sharepoint for what it's good at, which is to act as a basic intranet and file store, with version tracking. We also use the the truly excellent <a href=\"https://webhook.site/\" target=\"_blank\">webhook.site</a> to seamlessly integrate between our systems, <a href=\"https://updown.io/\" target=\"_blank\">updown.io</a> for monitoring, and <a href=\"https://usefathom.com/\" target=\"_blank\">Fathom Analytics</a> for website and app analytics. <br><br>\r\n\r\n  Some superior services I'm working with recently are <a href=\"https://postmarkapp.com\" target=\"_blank\">Postmark</a> for sending transactional and broadcast emails, <a href=\"https://improvmx.com\" target=\"_blank\">ImprovMX</a> for flexibly receiving and forwarding email, <a href=\"https://www.usebouncer.com/\" target=\"_blank\">Bouncer</a> for validating and verifying email addresses, and <a href=\"https://deno.com/deploy\" target=\"_blank\">Deno Deploy</a> and <a href=\"https://www.netlify.com/\" target=\"_blank\">Netlify</a> for efficiently hosting websites.\r\n</p>\r\n"
+nowpersonally: "<p class=\"f6 lh-copy measure\">\r\n  It has been a busy six months. At work we launched an office in May, and another in Oct, and I have been just struggling to feel really rested. I went to the US for a visit in Aug, but then felt completely \"brain fogged\" for a good 6 weeks. Not the best, from a mental health perspective, but I think that is past now. \U0001F340<br><br>\r\n\r\n  A few minutes a day I enjoy watching some series on streaming services like Netflix or Apple. I didn't see Dune 2 in a theater, but really enjoyed it on the TV. What a wonderful production; Villeneuve did a great job. \U0001F63B<br><br>\r\n\r\n  In May 2021, our Shiba \"Maru\" came to our home, and it'd been big lifestyle change with him in our lives. We have fallen into a rhythm with him, and have found a day care he loves to go to - <a href=\"http://www.petcaregreen.com/\" target=\"_blank\">Petcare House Green</a>, in neighboring Fujisawa. Although of course we love him to bits, it's sometimes good to have a day to reset and not worry about walks and so on. We tried various other places, but he didn't take to them for whatever reason, so we are really glad to have found \"Green\". He gets excited when he gets to go, which is cut to see, and really loves the lady who comes to pick him up. He's always a little irritated when he comes back though, probably stress from being with some dogs he likes and one or two that he doesn't. He has a routine when he comes back: he rips his bedding out of his crate, and violently shakes it. \U0001FAE8<br><br>\r\n\r\n  This summer I just did not have time to go hiking at all, despite really liking it. Instead I just jogged a lot, and got some \"barefoot sandals\" from Xero to jog in, which was interesting. I'm wearing normal sneakers now as it's cold, but they feel totally weird under foot.  <br><br>\r\n\r\n  We are finally selling our land next door, but the buyer is grousing about whether they can actually buy it at the price they promised. Our point to selling it is, there's nothing on it, so it requires gardening maintenance throughout the warm months, and we have to pay tax on it. We are selling it to make our retirement easier, but there are some risks with having new houses then new people moving in. <br><br>\r\n\r\n  I continue to be impressed with my <a href=\"https://ultimatehackingkeyboard.com/\" target=\"_blank\">Ultimate Hacking Keyboard 60 v2</a>, a split design where one's wrists can be kept straight. It has helped with my wrist pain. Now they have released a slightly bigger version, which I think I now \"need\". ⌨️<br><br>\r\n</p>\r\n"
 quotes:
-  - text: "The problem with the world is that the intelligent people are full of doubt, while the stupid people are full of confidence."
-    source: "Charles Bukowski"
-  - text: "It’s probably not just by chance that I’m alone. It would be very hard for a man to live with me, unless he’s terribly strong. And if he’s stronger than I, I’m the one who can’t live with him. … I’m neither smart nor stupid, but I don’t think I’m a run-of-the-mill person. I’ve been in business without being a businesswoman, I’ve loved without being a woman made only for love. The two men I’ve loved, I think, will remember me, on earth or in heaven, because men always remember a woman who caused them concern and uneasiness. I’ve done my best, in regard to people and to life, without precepts, but with a taste for justice."
-    source: "Coco Chanel"
-  - text: "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects."
-    source: "Robert A. Heinlein, Time Enough for Love"
-  - text: "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past, I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain."
-    source: "Frank Herbert, Dune, 'Litany Against Fear'"
-  - text: "Don't it always seem to go, that you don't know what you've got till it's gone."
-    source: "Joni Mitchell, 'Big Yellow Taxi'"
+  - text: >-
+      The problem with the world is that the intelligent people are full of
+      doubt, while the stupid people are full of confidence.
+    source: Charles Bukowski
+  - text: >-
+      It’s probably not just by chance that I’m alone. It would be very hard for
+      a man to live with me, unless he’s terribly strong. And if he’s stronger
+      than I, I’m the one who can’t live with him. … I’m neither smart nor
+      stupid, but I don’t think I’m a run-of-the-mill person. I’ve been in
+      business without being a businesswoman, I’ve loved without being a woman
+      made only for love. The two men I’ve loved, I think, will remember me, on
+      earth or in heaven, because men always remember a woman who caused them
+      concern and uneasiness. I’ve done my best, in regard to people and to
+      life, without precepts, but with a taste for justice.
+    source: Coco Chanel
+  - text: >-
+      A human being should be able to change a diaper, plan an invasion, butcher
+      a hog, conn a ship, design a building, write a sonnet, balance accounts,
+      build a wall, set a bone, comfort the dying, take orders, give orders,
+      cooperate, act alone, solve equations, analyze a new problem, pitch
+      manure, program a computer, cook a tasty meal, fight efficiently, die
+      gallantly. Specialization is for insects.
+    source: 'Robert A. Heinlein, Time Enough for Love'
+  - text: >-
+      I must not fear. Fear is the mind-killer. Fear is the little-death that
+      brings total obliteration. I will face my fear. I will permit it to pass
+      over me and through me. And when it has gone past, I will turn the inner
+      eye to see its path. Where the fear has gone there will be nothing. Only I
+      will remain.
+    source: 'Frank Herbert, Dune, ''Litany Against Fear'''
+  - text: >-
+      Don't it always seem to go, that you don't know what you've got till it's
+      gone.
+    source: 'Joni Mitchell, ''Big Yellow Taxi'''
