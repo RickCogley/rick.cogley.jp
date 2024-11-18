@@ -13,3 +13,4 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 - Icons: from [Phosphor](https://phosphoricons.com/)
 - CSS base library: [Tachyons](https://tachyons.io/)
 
+<script src="https://status.lol/rick.js?"></script>
