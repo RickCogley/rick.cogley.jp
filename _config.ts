@@ -99,6 +99,10 @@ site.script(
   "maketree",
   "cd _site && tree -H . -L 5 --charset utf-8 -C -h -o rick_cogley_jp_tree.html",
 );
+site.script(
+  "copyreadme",
+  "cd _site && cp repo-readme.md ../README.md",
+);
 // site.script(
 //   "getjpholidays",
 //   "cd src/_data && curl https://holidays-jp.github.io/api/v1/date.json -o jp_holidays.json",
@@ -109,5 +113,6 @@ site.script(
 // Execute scripts after build
 site.addEventListener("afterBuild", "zipsite");
 site.addEventListener("afterBuild", "maketree");
+site.addEventListener("afterBuild", "copyreadme");
 
 export default site;
