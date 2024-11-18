@@ -72,7 +72,7 @@ cms.document({
           description: "Image to link in head metadata.",
           attributes: {
             accept: "image/*",
-            required: true,
+            required: false,
           },
         },
       ],
