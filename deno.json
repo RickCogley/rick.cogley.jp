@@ -1,7 +1,7 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.4.2/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.7.2/"
+    "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@d2a1350268e749caf980995c06013e26414ebb5b/",
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@49d6a30075ba5002239bc6e5126b7e0c9addba0f/"
   },
   "tasks": {
     "lume": "export TZ='Asia/Tokyo' && echo \"import 'lume/cli.ts'\" | deno run -A -",
