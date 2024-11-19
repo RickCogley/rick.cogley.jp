@@ -38,7 +38,7 @@ layout: layouts/base.vto
       <h3 class="f4 bold center mw6 text-700"><span class="dark-pink">Wise</span> Words</h3>
       {{ for item of quotes |> shuffle }}
       <p class="f6 lh-copy measure">
-        <em>“{{ item.text }}”</em> <br><strong>― {{ item.source }}</strong>
+        <span class="italic-400">“{{ item.text }}”</span> <br><strong>― {{ item.source }}</strong>
       </p>
       {{ /for }}
     </div>
