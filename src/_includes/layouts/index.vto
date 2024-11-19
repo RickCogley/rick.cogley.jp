@@ -18,7 +18,7 @@ layout: layouts/base.vto
       <h3 class="f4 bold center mw6 text-700"><span class="dark-pink">Identity</span> & Sharing</h3>
         <p class="f6 lh-copy measure">
               <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
-                {{ for item of identity.links }}
+                {{ for item of identity.links |> shuffle }}
                 <li class="ph3 pv3 bb b--light-silver"><span class="dark-green">{{ item.icon |> phosphor("duotone") }}</span> <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
                 </li>
                 {{ /for }}
@@ -36,7 +36,7 @@ layout: layouts/base.vto
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
       <h3 class="f4 bold center mw6 text-700"><span class="dark-pink">Wise</span> Words</h3>
-      {{ for item of quotes }}
+      {{ for item of quotes |> shuffle }}
       <p class="f6 lh-copy measure">
         <em>“{{ item.text }}”</em> <br><strong>― {{ item.source }}</strong>
       </p>
@@ -44,7 +44,7 @@ layout: layouts/base.vto
     </div>
   </section>
   <section class="fl w-100">
-    {{ for file of search.files("/assets/JRC-*.jpg") }}
+    {{ for file of search.files("/assets/JRC-*.jpg") |> shuffle }}
     {{ set value = {...it.photos[file]} }}
     <div class="fl w-100 w-50-m w-25-l pv3 pa3-m pa4-l">
       <div class="aspect-ratio aspect-ratio--3x4 shadow-1 br1">
