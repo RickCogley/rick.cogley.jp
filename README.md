@@ -15,10 +15,23 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 - Icons: from [Phosphor](https://phosphoricons.com/)
 - CSS base library: [Tachyons](https://tachyons.io/)
 
+## Latest Statuses:
+
+* [🕊️ Netflix&#039;s The Diplomat is good stuff; loving the acting and banter. Twistiness makes you go back to watch earlier scenes.](https://rick.status.lol/673b15ef5661b)
+* [👐 Kicking the Bluesky tires. https://bsky.app/profile/cogley.jp](https://rick.status.lol/672dcd8a48aad)
+* [🚀 Testing lume CMS on a few sites, now on a vps so we get the benefit of live preview.](https://rick.status.lol/672ca9ac68461)
+* [😑 We arranged for my MIL to live in a care home, and we all have mixed feelings, but she needs that kind of help.](https://rick.status.lol/672b4f07ca0b2)
+* [🤗 Daughter getting out of hospital today which I’m grateful for!](https://rick.status.lol/6706ce3c33125)
+
+
 ## Stats:
 
 | Item | Value |
 | --- | --- |
 | Total Files | 163 |
-| Repo Size in MB | 83 |
+| Repo Size in MB | 16 |
+
+
+
+
 
