@@ -19,10 +19,19 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 - Icons: from [Phosphor](https://phosphoricons.com/)
 - CSS base library: [Tachyons](https://tachyons.io/)
 
+## Latest Statuses:
+
+{{ for item of statuses.entries }}* [{{ item.description.value }}]({{ item.id }})
+{{ /for }}
+
 ## Stats:
 
 | Item | Value |
 | --- | --- |
 | Total Files | {{ search.files("").length }} |
 | Repo Size in MB | {{ repoSizeMB }} |
+
+
+
+
 
