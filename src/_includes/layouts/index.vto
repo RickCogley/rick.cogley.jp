@@ -19,7 +19,7 @@ layout: layouts/base.vto
         <p class="f6 lh-copy measure">
               <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
                 {{ for item of identity.links }}
-                <li class="ph3 pv3 bb b--light-silver"><span class="dark-green">{{ item.icon |> phosphor("duotone") }}</span> <a href="item.url" target="_blank">{{ item.title }}</a>
+                <li class="ph3 pv3 bb b--light-silver"><span class="dark-green">{{ item.icon |> phosphor("duotone") }}</span> <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
                 </li>
                 {{ /for }}
               </ul>
