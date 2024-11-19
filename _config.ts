@@ -19,7 +19,8 @@ import sitemap from "lume/plugins/sitemap.ts";
 import source_maps from "lume/plugins/source_maps.ts";
 import sri from "lume/plugins/sri.ts";
 import terser from "lume/plugins/terser.ts";
-import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
+// import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
+import icons from "lume/plugins/icons.ts";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import brotli from "lume/plugins/brotli.ts";
@@ -64,7 +65,8 @@ site.use(sitemap({
 site.use(source_maps());
 site.use(sri());
 site.use(terser());
-site.use(phosphor());
+// site.use(phosphor());
+site.use(icons(/* Options */));
 // site.use(picture(/* Options */));
 // site.use(transformImages({
 //   cache: true, // Toggle cache

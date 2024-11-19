@@ -9,7 +9,7 @@
         class="link white-90 bg-transparent hover-{{ item.hovercolor }} inline-flex items-center ma2 tc br2 pa2"
         href="{{ item.url }}"
         title="{{ item.title }}"
-      >{{ item.icon |> phosphor("duotone") }}
+      >{{ item.icon |> icon("phosphor","duotone") }}
         <span class="f6 ml3 pr2">{{ item.title }}</span>
       </a>
     {{ /for }}

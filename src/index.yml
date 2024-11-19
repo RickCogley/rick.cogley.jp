@@ -9,7 +9,7 @@ metas:
   image: /assets/rick-cogley-mono.jpg
 priority: 1
 ldPerson: true
-bio: "<span class=\"black-40\">Rick Cogley</span> has been sticking out like a sore thumb in Japan since 1987! <span class=\"textjp-700 f4\">日本語も</span>OK. CEO & Founder, eSolia. <br>I <span class=\"f3 dark-pink\">{{ \"heart\" |> phosphor(\"duotone\") }}</span> family, our Shiba \"Maru\", coding & scripting, moving. <br>Yokohama ⇆ Tokyo</span>\r\n"
+bio: "<span class=\"black-40\">Rick Cogley</span> has been sticking out like a sore thumb in Japan since 1987! <span class=\"textjp-700 f4\">日本語も</span>OK. CEO & Founder, eSolia. <br>I <span class=\"f3 dark-pink\">{{ \"heart\" |> icon(\"phosphor\",\"duotone\") }}</span> family, our Shiba \"Maru\", coding & scripting, moving. <br>Yokohama ⇆ Tokyo</span>\r\n"
 identity:
   links:
     - title: Proven.lol Proof
