@@ -20,5 +20,5 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 | Item | Value |
 | --- | --- |
 | Total Files | 163 |
-| Repo Size in MB | 82 |
+| Repo Size in MB | 16 |
 
