@@ -18,3 +18,29 @@ const holidays = await response.json();
 export {
   holidays,
 };
+
+import { join } from "https://deno.land/std/path/mod.ts";
+
+async function getFolderSize(path: string): Promise<number> {
+  let totalSize = 0;
+
+  for await (const entry of Deno.readDir(path)) {
+    const entryPath = join(path, entry.name);
+    const info = await Deno.stat(entryPath);
+
+    if (info.isFile) {
+      totalSize += info.size;
+    } else if (info.isDirectory) {
+      totalSize += await getFolderSize(entryPath);
+    }
+  }
+
+  return totalSize;
+}
+
+const folderPath = "./";
+getFolderSize(folderPath).then(size => {
+  console.log(`Total size: ${size/1024/1024} MB`);
+});
+export const repoSizeLong = await getFolderSize(folderPath);
+export const repoSizeMB = Math.trunc(repoSizeLong/1024/1024);
