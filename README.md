@@ -35,7 +35,3 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 
 
-
-
-
-
