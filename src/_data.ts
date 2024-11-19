@@ -44,3 +44,7 @@ getFolderSize(folderPath).then(size => {
 });
 export const repoSizeLong = await getFolderSize(folderPath);
 export const repoSizeMB = Math.trunc(repoSizeLong/1024/1024);
+
+// https://en.wikipedia.org/wiki/Fisher-Yates_shuffle
+import shuffle from "https://deno.land/x/shuffle/mod.ts";
+console.log(shuffle(["i","ro","ha","ni","ho","he","to"]));
