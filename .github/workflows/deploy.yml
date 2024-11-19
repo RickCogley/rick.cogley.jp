@@ -16,13 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
-      contents: read
+      contents: write
 
     # What steps to run
     steps:
       - name: Clone repository
         # Git clone the repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Setup Deno environment
         # Downloads deno and caches it
@@ -34,6 +36,12 @@ jobs:
       - name: Build site
         # Run the build script from deno.json
         run: deno task build
+
+      - name: Commit changes
+        # Commit the changes to the repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Apply changes during gh actions build
 
       - name: Deploy to Deno Deploy
         # Push the built site to Deno Deploy
