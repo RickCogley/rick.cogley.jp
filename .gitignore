@@ -39,7 +39,6 @@ build/Release
 
 # Build directories
 dist
-_site
 bundle
 
 # Node Dependency directory
@@ -54,3 +53,8 @@ bundle/
 # AWS stuff for publishing static files
 .aws-credentials.json
 .awspublish*
+
+# Lume and deno
+_site
+_cache
+deno.lock
