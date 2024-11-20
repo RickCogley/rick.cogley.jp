@@ -19,13 +19,13 @@ import sitemap from "lume/plugins/sitemap.ts";
 import source_maps from "lume/plugins/source_maps.ts";
 import sri from "lume/plugins/sri.ts";
 import terser from "lume/plugins/terser.ts";
-// import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
-import icons from "lume/plugins/icons.ts";
+import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
+// import icons from "lume/plugins/icons.ts";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import brotli from "lume/plugins/brotli.ts";
 import onDemand from "lume/plugins/on_demand.ts";
-import cssBanner from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/css_banner.ts?token=2";
+// import cssBanner from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/css_banner.ts?token=2";
 // import shuffle from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/shuffle.ts?token=2";
 
 const site = lume(
@@ -67,8 +67,8 @@ site.use(sitemap({
 site.use(source_maps());
 site.use(sri());
 site.use(terser());
-// site.use(phosphor());
-site.use(icons(/* Options */));
+site.use(phosphor());
+// site.use(icons(/* Options */));
 // site.use(picture(/* Options */));
 // site.use(transformImages({
 //   cache: true, // Toggle cache
@@ -85,9 +85,9 @@ site.use(onDemand({
     };
   },
 }));
-site.use(cssBanner({
-  message: "===rickcogley - css jokes are always in style===",
-}));
+// site.use(cssBanner({
+//   message: "===rickcogley - css jokes are always in style===",
+// }));
 // site.use(shuffle());
 
 site.filter("shuffle", <T>(array: T[] = []) => {
