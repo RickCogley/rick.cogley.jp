@@ -1,10 +1,12 @@
 import lume from "lume/mod.ts";
+import { getCurrentVersion } from "lume/core/utils/lume_version.ts";
 import googleFonts from "lume/plugins/google_fonts.ts";
 import attributes from "lume/plugins/attributes.ts";
 import base_path from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
 import { enUS } from "npm:date-fns/locale/en-US";
 import { ja } from "npm:date-fns/locale/ja";
+import { getGitDate } from "lume/core/utils/date.ts";
 // import favicon from "lume/plugins/favicon.ts";
 import feed from "lume/plugins/feed.ts";
 import filter_pages from "lume/plugins/filter_pages.ts";
@@ -98,6 +100,7 @@ site.use(shuffle());
 //   return array;
 // });
 
+site.data("lumeVersion", getCurrentVersion());
 site.copy("assets");
 // site.copy("static/portfolio", "portfolio");
 site.copy([".gif",".pdf",".docx",".pptx",".xlsx",".zip",".svg"]);
@@ -105,6 +108,16 @@ site.copyRemainingFiles();
 
 site.ignore("*.DS_Store");
 site.ignore("archive");
+
+site.preprocess([".html"], (pages) => {
+  for (const page of pages) {
+    const src = page.src.entry?.src;
+
+    if (src) {
+      page.data.lastmod = getGitDate("modified", src);
+    }
+  }
+});
 
 // Create zip and tree scripts
 site.script(

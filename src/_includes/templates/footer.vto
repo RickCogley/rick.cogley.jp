@@ -2,7 +2,10 @@
 <!-- Icons from Phosphor -->
 <footer style="background-image:url(/assets/footer_bg1sm.gif);" class="tc-l bg-center cover bg-black">
   <div class="w-100 ph3 pv5 bg-black-70">
-    <span class="white-70"><small>©{{ "now" |> date("y") }} {{ site.author }}</small></span><br>
+    <span class="white-70"><small>©{{ "now" |> date("y") }} {{ site.author }}<br>
+    Updated {{ date |> date("HUMAN_DATETIME")}}<br>
+    Lume {{ lumeVersion }}, Deno {{ Deno.version.deno }}, Typescript {{ Deno.version.typescript }}, V8 {{ Deno.version.v8 }}<br></small>
+    </span>
     {{ for item of footer.links }}
       <a
         rel="me"
