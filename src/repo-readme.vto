@@ -30,7 +30,11 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 | --- | --- |
 | Total Files | {{ search.files("").length }} |
 | Repo Size in MB | {{ repoSizeMB }} |
-
+| Lume Version | {{ lumeVersion }} |
+| Deno Version | {{ Deno.version.deno }} |
+| V8 Version | {{ Deno.version.v8 }} |
+| Typescript Version | {{ Deno.version.typescript }} |
+| Timezone | {{ Deno.env.get("TZ") }} |
 
 
 
