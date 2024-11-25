@@ -16,12 +16,18 @@ app.use(async (ctx, next) => {
   const ms = Date.now() - start;
   ctx.response.headers.set("X-Response-Time", `${ms}ms`);
   ctx.response.headers.set("X-Custom-Header", "Rawr eSolia");
-  ctx.response.headers.set("Strict-Transport-Security", "max-age=31536000; includeSubDomains; preload");
+  ctx.response.headers.set(
+    "Strict-Transport-Security",
+    "max-age=31536000; includeSubDomains; preload",
+  );
   ctx.response.headers.set("X-Frame-Options", "SAMEORIGIN");
   ctx.response.headers.set("Referrer-Policy", "strict-origin");
   ctx.response.headers.set("X-Content-Type-Options", "nosniff");
   ctx.response.headers.set("X-Powered-By", "Blood Sweat Tears");
-  ctx.response.headers.set("Permissions-Policy", "accelerometer=(), ambient-light-sensor=*, autoplay=(self), battery=(self), camera=(), cross-origin-isolated=*, fullscreen=*, geolocation=(self), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), usb=()");
+  ctx.response.headers.set(
+    "Permissions-Policy",
+    "accelerometer=(), ambient-light-sensor=*, autoplay=(self), battery=(self), camera=(), cross-origin-isolated=*, fullscreen=*, geolocation=(self), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), usb=()",
+  );
 });
 
 app.use(async (ctx) => {

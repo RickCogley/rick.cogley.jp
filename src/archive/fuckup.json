@@ -21,7 +21,7 @@
     }
   },
   "type": "static",
-  "static":{
+  "static": {
     "dir": "html"
   },
   "headers": {

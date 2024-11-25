@@ -4,16 +4,22 @@
     "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@49d6a30075ba5002239bc6e5126b7e0c9addba0f/"
   },
   "tasks": {
-    "lume": "export TZ='Asia/Tokyo' && echo \"import 'lume/cli.ts'\" | deno run -A -",
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run --env-file -A -",
     "build": "deno task lume",
     "serve": "deno task lume -s",
     "cms": "deno task lume cms",
     "format": "echo '=== Regular deno fmt... ===' && deno fmt --ignore=_dist && echo '=== Deno fmt for vento... ===' && deno fmt --unstable-component --ignore=_dist",
-    "serve_ondemand": "deno run -A serve.ts"
+    "serve_ondemand": "deno run --env-file -A serve.ts"
   },
   "compilerOptions": {
     "types": [
       "lume/types.ts"
+    ]
+  },
+  "fmt": {
+    "exclude": [
+      "_site",
+      "src/assets"
     ]
   }
 }
