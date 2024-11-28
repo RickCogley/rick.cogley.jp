@@ -1,6 +1,7 @@
 layout: layouts/index.vto
 title: Landing
 date: Git Last Modified
+created: Git Created
 id: home
 lang: ja
 metas:
