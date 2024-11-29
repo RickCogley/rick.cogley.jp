@@ -29,7 +29,7 @@ import brotli from "lume/plugins/brotli.ts";
 import onDemand from "lume/plugins/on_demand.ts";
 import cssBanner from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/css_banner.ts?token=2";
 import shuffle from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/shuffle.ts?token=2";
-// import fff from "lume/plugins/fff.ts";
+import fff from "lume/plugins/fff.ts";
 
 const site = lume(
   {
@@ -96,9 +96,21 @@ site.use(cssBanner({
   message: "===rickcogley - css jokes are always in style===",
 }));
 site.use(shuffle());
-// site.use(fff({
-//   date: "published", // Create the variable 'published' from the variable 'date'
-// }));
+site.use(fff({
+  date: "published",
+  presets: [{
+    summary: "content",
+  }],
+  strict: {
+    categories: false,
+    media: {
+      array: false,
+      type: "object",
+    },
+  },
+  getGitDate: true,
+  postTypeDiscovery: true,
+}));
 
 // site.filter("shuffle", <T>(array: T[] = []) => {
 //   for (let i = array.length - 1; i >= 0; i--) {
