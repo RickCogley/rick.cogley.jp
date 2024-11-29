@@ -123,6 +123,7 @@ site.preprocess([".html"], (pages) => {
 
     if (src) {
       page.data.lastmod = getGitDate("modified", src);
+      page.data.created = getGitDate("created", src);
     }
   }
 });
