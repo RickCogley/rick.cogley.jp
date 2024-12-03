@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, December 3, 2024
+**Today is:** Wednesday, December 4, 2024
 
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
@@ -17,11 +17,11 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🤼‍♂️ Wrasslin’ Deno fetch](https://rick.status.lol/674f018d15a26)
 * [🌀 Marvelling at polypane.app; wow, what a fantastic tool. It will really help site development.](https://rick.status.lol/674d6dc717a34)
 * [🚶‍♂️ Stepping through [CSS Complete](https://piccalil.li/complete-css), shaking off what feels like years of counterproductive knowledge.](https://rick.status.lol/674bafe79378c)
 * [💻 Subscribed to and am now kicking the tires on &quot;CleanShot X&quot;. It&#039;s really fantastic screenshot software for Mac.](https://rick.status.lol/6747bc72c0a59)
 * [😘 Enjoyed an evening celebrating our dog Maru the Shiba&#039;s 4th birthday. Happy birthday, little buddy!](https://rick.status.lol/67446268c9ec6)
-* [😎 Spent the evening working on making my GitHub profile dynamic using Lume SSG. https://rickcogley.github.io/rickcogley](https://rick.status.lol/674090be2957e)
 
 
 ## Stats:
