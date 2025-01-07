@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-          fetch-depth: '0' # 0 is Fetch all history for git
+          fetch-depth: "0" # 0 is Fetch all history for git
 
       - name: Setup Deno environment
         # Downloads deno and caches it
