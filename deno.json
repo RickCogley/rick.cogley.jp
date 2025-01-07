@@ -21,5 +21,14 @@
       "_site",
       "src/assets"
     ]
+  },
+  "lint": {
+    "include": ["src/"],
+    "exclude": ["_site/", "_cache/"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
   }
 }
