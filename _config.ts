@@ -113,7 +113,9 @@ site.use(fff({
   getGitDate: true,
   postTypeDiscovery: true,
 }));
-site.use(purgecss());
+site.use(purgecss({
+  fontFace: true,
+}));
 
 // site.filter("shuffle", <T>(array: T[] = []) => {
 //   for (let i = array.length - 1; i >= 0; i--) {
