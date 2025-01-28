@@ -28,7 +28,7 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 | --- | --- |
 | Total Files | 146 |
 | Repo Size in MB | 25 |
-| Lume Version | v2.5.0 |
+| Lume Version | v2.5.1 |
 | Deno Version | 2.1.7 |
 | V8 Version | 13.0.245.12-rusty |
 | Typescript Version | 5.6.2 |
