@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, February 13, 2025
+**Today is:** Friday, February 14, 2025
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -29,7 +29,7 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 | Total Files | 146 |
 | Repo Size in MB | 25 |
 | Lume Version | v2.5.1 |
-| Deno Version | 2.1.9 |
+| Deno Version | 2.1.10 |
 | V8 Version | 13.0.245.12-rusty |
 | Typescript Version | 5.6.2 |
 | Timezone | Asia/Tokyo |
@@ -46,7 +46,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2025年2月13日 1:44:40 GMT+9<br>
+    更新日付 2025年2月14日 1:45:05 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
