@@ -4,6 +4,6 @@
  * @see https://deno.com/deploy/changelog#statically-analyzable-dynamic-imports
  */
 export function toStaticallyAnalyzableDynamicImports() {
-  import("./src/_data.ts");
   import("./src/archive/index.ts");
+  import("./src/_data.ts");
 }
