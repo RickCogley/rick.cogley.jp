@@ -27,8 +27,8 @@ import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import brotli from "lume/plugins/brotli.ts";
 import onDemand from "lume/plugins/on_demand.ts";
-import cssBanner from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/css_banner.ts?3";
-import shuffle from "https://raw.githubusercontent.com/RickCogley/hibana/refs/heads/main/plugins/shuffle.ts?3";
+import cssBanner from "https://raw.githubusercontent.com/RickCogley/hibana/v0.5.0/plugins/css_banner.ts?1";
+import shuffle from "https://raw.githubusercontent.com/RickCogley/hibana/v0.5.0/plugins/shuffle.ts?1";
 import fff from "lume/plugins/fff.ts";
 import purgecss from "lume/plugins/purgecss.ts";
 
