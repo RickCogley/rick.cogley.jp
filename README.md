@@ -26,8 +26,8 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 | Item | Value |
 | --- | --- |
-| Total Files | 144 |
-| Repo Size in MB | 84 |
+| Total Files | 143 |
+| Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
 | Deno Version | 2.5.4 |
 | V8 Version | 14.0.365.5-rusty |
@@ -46,7 +46,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2025年2月12日 13:37:10 GMT+9<br>
+    更新日付 2025年10月17日 7:56:44 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
