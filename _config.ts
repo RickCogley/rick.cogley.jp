@@ -26,7 +26,7 @@ import phosphor from "https://deno.land/x/lume_icon_plugins@v0.2.4/phosphor.ts";
 // import picture from "lume/plugins/picture.ts";
 // import transformImages from "lume/plugins/transform_images.ts";
 import brotli from "lume/plugins/brotli.ts";
-import onDemand from "lume/plugins/on_demand.ts";
+// import onDemand from "lume/plugins/on_demand.ts";
 import cssBanner from "https://raw.githubusercontent.com/RickCogley/hibana/v0.5.0/plugins/css_banner.ts?1";
 import shuffle from "https://raw.githubusercontent.com/RickCogley/hibana/v0.5.0/plugins/shuffle.ts?1";
 import fff from "lume/plugins/fff.ts";
@@ -83,17 +83,17 @@ site.use(phosphor());
 //   cache: true, // Toggle cache
 // }));
 site.use(brotli());
-site.use(onDemand({
-  extraData(request: Request) {
-    const searchParams = new URL(request.url).searchParams;
-    const params = Object.fromEntries(searchParams.entries());
+// site.use(onDemand({
+//   extraData(request: Request) {
+//     const searchParams = new URL(request.url).searchParams;
+//     const params = Object.fromEntries(searchParams.entries());
 
-    return {
-      params,
-      request,
-    };
-  },
-}));
+//     return {
+//       params,
+//       request,
+//     };
+//   },
+// }));
 site.use(cssBanner({
   message: "===rickcogley - css jokes are always in style===",
 }));
@@ -126,10 +126,10 @@ site.use(purgecss({
 // });
 
 site.data("lumeVersion", getCurrentVersion());
-site.copy("assets");
+site.add("assets");
 // site.copy("static/portfolio", "portfolio");
-site.copy([".gif", ".pdf", ".docx", ".pptx", ".xlsx", ".zip", ".svg"]);
-site.copyRemainingFiles();
+site.add([".gif", ".pdf", ".docx", ".pptx", ".xlsx", ".zip", ".svg"]);
+// site.copyRemainingFiles();
 
 site.ignore("*.DS_Store");
 site.ignore("archive");

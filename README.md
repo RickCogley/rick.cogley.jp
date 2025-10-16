@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, June 10, 2025
+**Today is:** Friday, October 17, 2025
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,22 +16,22 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [😒 Another daughter will leave the nest soon. Feeling pretty sad.](https://rick.status.lol/rick/68f0c9ae0437b)
+* [🗾 In line at the Osaka World Expo 2025. Yesterday was a typhoon but today is a scorcher.](https://rick.status.lol/rick/68bb6fe4797f2)
+* [🗺️ Heading to the Osaka Expo and no typhoon will stop us!](https://rick.status.lol/rick/68ba83e34be64)
 * [💦 Wrasslin’ Lume to get it to handle multilingual.](https://rick.status.lol/rick/67b98bf4e488e)
 * [😷 Recovered from a persistent cold](https://rick.status.lol/rick/67a1a389c28bb)
-* [🇯🇵 Renewed Japan driver license](https://rick.status.lol/rick/6788c5f4d217e)
-* [😋 Eating lunch at a high end fish place in Senkyaku Banrai in Toyosu](https://rick.status.lol/rick/6781e8d4892e8)
-* [🎍 Happy new year 2025](https://rick.status.lol/rick/6774f860dcccc)
 
 ## Stats:
 
 | Item | Value |
 | --- | --- |
-| Total Files | 146 |
-| Repo Size in MB | 25 |
-| Lume Version | v2.5.1 |
-| Deno Version | 2.3.5 |
-| V8 Version | 13.7.152.6-rusty |
-| Typescript Version | 5.8.3 |
+| Total Files | 144 |
+| Repo Size in MB | 84 |
+| Lume Version | v3.0.11 |
+| Deno Version | 2.5.4 |
+| V8 Version | 14.0.365.5-rusty |
+| Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
 
 
@@ -46,7 +46,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2025年6月10日 1:47:45 GMT+9<br>
+    更新日付 2025年2月12日 13:37:10 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"

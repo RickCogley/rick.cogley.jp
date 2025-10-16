@@ -1,7 +1,8 @@
 {
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.5.1/",
-    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@v0.9.2/"
+    "lume/": "https://deno.land/x/lume@v3.0.11/",
+    "lume/cms/": "https://cdn.jsdelivr.net/gh/lumeland/cms@0.13.0/",
+    "lume/jsx-runtime": "https://deno.land/x/ssx@v0.1.12/jsx-runtime.ts"
   },
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --env-file -A -",
@@ -14,7 +15,9 @@
   "compilerOptions": {
     "types": [
       "lume/types.ts"
-    ]
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "lume"
   },
   "fmt": {
     "exclude": [
@@ -38,8 +41,16 @@
         "ban-untagged-todo"
       ],
       "exclude": [
-        "no-unused-vars"
+        "no-unused-vars",
+        "no-import-prefix"
       ]
-    }
-  }
+    },
+    "plugins": [
+      "https://deno.land/x/lume@v3.0.11/lint.ts"
+    ]
+  },
+  "unstable": [
+    "temporal",
+    "fmt-component"
+  ]
 }
