@@ -4,7 +4,7 @@ import Server from "lume/core/server.ts";
 import precompress from "lume/middlewares/precompress.ts";
 import expires from "lume/middlewares/expires.ts";
 import csp from "https://raw.githubusercontent.com/lumeland/experimental-plugins/main/csp/mod.ts";
-import onDemand from "lume/middlewares/on_demand.ts";
+// import onDemand from "lume/middlewares/on_demand.ts";
 import "./_preload.ts";
 
 //import csp from "https://raw.githubusercontent.com/RickCogley/experimental-plugins/refs/heads/main/csp/mod.ts";
@@ -53,7 +53,7 @@ server.use(csp({
   "X-Powered-By": "Lume and sweat, blood, and tears",
 }));
 
-server.use(onDemand({ site }));
+//server.use(onDemand({ site }));
 
 server.start();
 
