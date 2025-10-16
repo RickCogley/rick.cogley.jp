@@ -46,7 +46,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2025年10月17日 8:00:17 GMT+9<br>
+    更新日付 2025年10月17日 8:06:26 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
