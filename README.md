@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Saturday, January 3, 2026
+**Today is:** Sunday, January 4, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,11 +16,11 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🎯 Just updated the design and functionality of my long-form &quot;now&quot; page at rick.cogley.jp, check it out! It&#039;s part of a larger effort to build a personal publishing stack using sveltekit on cloudflare.!](https://rick.status.lol/rick/6958efc2cad2b)
 * [😒 Another daughter will leave the nest soon. Feeling pretty sad.](https://rick.status.lol/rick/68f0c9ae0437b)
 * [🗾 In line at the Osaka World Expo 2025. Yesterday was a typhoon but today is a scorcher.](https://rick.status.lol/rick/68bb6fe4797f2)
 * [🗺️ Heading to the Osaka Expo and no typhoon will stop us!](https://rick.status.lol/rick/68ba83e34be64)
 * [💦 Wrasslin’ Lume to get it to handle multilingual.](https://rick.status.lol/rick/67b98bf4e488e)
-* [😷 Recovered from a persistent cold](https://rick.status.lol/rick/67a1a389c28bb)
 
 ## Stats:
 
@@ -46,7 +46,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月3日 1:47:01 GMT+9<br>
+    更新日付 2026年1月4日 1:46:43 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
