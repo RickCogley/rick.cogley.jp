@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, January 6, 2026
+**Today is:** Wednesday, January 7, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,13 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🗾 The morning of January 1st, 2026, I turned 60 — a milestone that in Japan carries a significance far beyond the usual birthday fanfare. I celebrated my kanreki (還暦), one of the most meaningful longevity celebrations in Japanese culture.
+
+What is Kanreki?
+
+The word itself tells the story: kan (還) means &quot;return&quot; and reki (暦) means &quot;calendar.&quot; At 60, you&#039;ve completed a full cycle of the traditional East Asian zodiac ca…
+
+https://cogley.jp/articles/kanreki-completing-the-circle-at-60](https://rick.status.lol/rick/695c7c3fdb6a3)
 * [🗾 Do you know how much money to give when you pray at a shrine in Japan? Read on to find out the standard good-luck and bad-luck amounts! ⛩️
 
 
@@ -26,7 +33,6 @@ https://cogley.jp/articles/japan-shrine-donation-amounts](https://rick.status.lo
 * [🎯 Just updated the design and functionality of my long-form &quot;now&quot; page at rick.cogley.jp, check it out! It&#039;s part of a larger effort to build a personal publishing stack using sveltekit on cloudflare.!](https://rick.status.lol/rick/6958efc2cad2b)
 * [😒 Another daughter will leave the nest soon. Feeling pretty sad.](https://rick.status.lol/rick/68f0c9ae0437b)
 * [🗾 In line at the Osaka World Expo 2025. Yesterday was a typhoon but today is a scorcher.](https://rick.status.lol/rick/68bb6fe4797f2)
-* [🗺️ Heading to the Osaka Expo and no typhoon will stop us!](https://rick.status.lol/rick/68ba83e34be64)
 
 ## Stats:
 
@@ -35,7 +41,7 @@ https://cogley.jp/articles/japan-shrine-donation-amounts](https://rick.status.lo
 | Total Files | 143 |
 | Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
-| Deno Version | 2.6.3 |
+| Deno Version | 2.6.4 |
 | V8 Version | 14.2.231.17-rusty |
 | Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
@@ -52,7 +58,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月6日 1:48:06 GMT+9<br>
+    更新日付 2026年1月7日 1:50:00 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
