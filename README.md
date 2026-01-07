@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Wednesday, January 7, 2026
+**Today is:** Thursday, January 8, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,19 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 My staff made a blog about a point I got confused when I first started using M365. See our post on the Tech It Easy Blog.
+
+https://cogley.jp/posts/01KEBTY2108WXHQEYDF58YA7WR](https://rick.status.lol/rick/695e20914cd67)
+* [🗾 A Bowl of Renewal: Nanakusa-gayu on January 7th
+
+Today marks Jinjitsu no Sekku (人日の節句)—the Festival of Humanity, one of the five sacred seasonal festivals in Japan. And with it comes one of the gentlest traditions in the Japanese calendar: nanakusa-gayu, the seven herbs rice porridge. 
+
+There&#039;s something almost paradoxical about this dish. After the richness of osechi-ryori, the toas…
+
+https://cogley.jp/articles/a-bowl-of-renewal-nanakusa-gayu](https://rick.status.lol/rick/695dcbb3e9df5)
+* [💬 Cloudflare&#039;s RADAR is a great service that is just chock full of info. Read their 6th annual year in review for the latest global trends, patterns, disruptions, advances and metrics.
+
+https://cogley.jp/posts/01KEAGY0BHHERZA51XZHE3BD0N](https://rick.status.lol/rick/695da6ae63529)
 * [🗾 The morning of January 1st, 2026, I turned 60 — a milestone that in Japan carries a significance far beyond the usual birthday fanfare. I celebrated my kanreki (還暦), one of the most meaningful longevity celebrations in Japanese culture.
 
 What is Kanreki?
@@ -30,9 +43,6 @@ https://cogley.jp/articles/kanreki-completing-the-circle-at-60](https://rick.sta
 Visiting a shrine on the first days of the year is the 初詣 “hatsumode” tradition in Japan, but how much money should you toss in the coin box? The amounts (お賽銭 osaisen) you should and should not donate are steeped in goroawase word-play, where Yen or 円 “en” as we s…
 
 https://cogley.jp/articles/japan-shrine-donation-amounts](https://rick.status.lol/rick/695ac3d832334)
-* [🎯 Just updated the design and functionality of my long-form &quot;now&quot; page at rick.cogley.jp, check it out! It&#039;s part of a larger effort to build a personal publishing stack using sveltekit on cloudflare.!](https://rick.status.lol/rick/6958efc2cad2b)
-* [😒 Another daughter will leave the nest soon. Feeling pretty sad.](https://rick.status.lol/rick/68f0c9ae0437b)
-* [🗾 In line at the Osaka World Expo 2025. Yesterday was a typhoon but today is a scorcher.](https://rick.status.lol/rick/68bb6fe4797f2)
 
 ## Stats:
 
@@ -58,7 +68,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月7日 1:50:00 GMT+9<br>
+    更新日付 2026年1月8日 1:50:42 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
