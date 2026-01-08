@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, January 8, 2026
+**Today is:** Friday, January 9, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,20 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🏆 Beginner devs it goes without saying, because even a seasoned pro software dev will benefit from roadmap.sh. It&#039;s stunning how much knowledge they&#039;ve packed in their website.
+
+https://cogley.jp/posts/01KEET0KM5543WD176T6ERZHAF](https://rick.status.lol/rick/695fa6038aec0)
+* [💬 The latest version of Rogue Ameba&#039;s Audio Hijack is fantastic. You can really do a lot more with it, but I am using it to make recordings for podcasts, with a chain of processing automation. Good stuff! 
+
+https://cogley.jp/posts/01KEEH9VYYYQGJMD4C5Q1VERPT](https://rick.status.lol/rick/695f98d1db8e6)
+* [💬 Cloudflare eating their own dogfood at their 600-odd data centers globally. 
+
+Physical data center maintenance is risky on a global network. We built a maintenance scheduler on Workers to safely plan disruptive operations, while solving scaling challenges by viewing the state of our infrastructure through a graph interface on top of multiple data sources and metrics pipelines.  
+ 
+ 
+Via The Cloudflare Blog
+
+https://cogley.jp/posts/01KECYCY1CGTEJ34HA7CTGND9M](https://rick.status.lol/rick/695eb1d4d7bac)
 * [💬 My staff made a blog about a point I got confused when I first started using M365. See our post on the Tech It Easy Blog.
 
 https://cogley.jp/posts/01KEBTY2108WXHQEYDF58YA7WR](https://rick.status.lol/rick/695e20914cd67)
@@ -26,23 +40,6 @@ Today marks Jinjitsu no Sekku (人日の節句)—the Festival of Humanity, one 
 There&#039;s something almost paradoxical about this dish. After the richness of osechi-ryori, the toas…
 
 https://cogley.jp/articles/a-bowl-of-renewal-nanakusa-gayu](https://rick.status.lol/rick/695dcbb3e9df5)
-* [💬 Cloudflare&#039;s RADAR is a great service that is just chock full of info. Read their 6th annual year in review for the latest global trends, patterns, disruptions, advances and metrics.
-
-https://cogley.jp/posts/01KEAGY0BHHERZA51XZHE3BD0N](https://rick.status.lol/rick/695da6ae63529)
-* [🗾 The morning of January 1st, 2026, I turned 60 — a milestone that in Japan carries a significance far beyond the usual birthday fanfare. I celebrated my kanreki (還暦), one of the most meaningful longevity celebrations in Japanese culture.
-
-What is Kanreki?
-
-The word itself tells the story: kan (還) means &quot;return&quot; and reki (暦) means &quot;calendar.&quot; At 60, you&#039;ve completed a full cycle of the traditional East Asian zodiac ca…
-
-https://cogley.jp/articles/kanreki-completing-the-circle-at-60](https://rick.status.lol/rick/695c7c3fdb6a3)
-* [🗾 Do you know how much money to give when you pray at a shrine in Japan? Read on to find out the standard good-luck and bad-luck amounts! ⛩️
-
-
-
-Visiting a shrine on the first days of the year is the 初詣 “hatsumode” tradition in Japan, but how much money should you toss in the coin box? The amounts (お賽銭 osaisen) you should and should not donate are steeped in goroawase word-play, where Yen or 円 “en” as we s…
-
-https://cogley.jp/articles/japan-shrine-donation-amounts](https://rick.status.lol/rick/695ac3d832334)
 
 ## Stats:
 
@@ -68,7 +65,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月8日 1:50:42 GMT+9<br>
+    更新日付 2026年1月9日 1:50:40 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
