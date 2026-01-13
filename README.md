@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, January 13, 2026 (成人の日)
+**Today is:** Wednesday, January 14, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Cloudflare is in the process of merging Pages into Workers, so I am migrating a bunch of apps now. 🏔️
+
+https://cogley.jp/posts/01KEVR59S5SQM73FEC68EEGDQ5](https://rick.status.lol/rick/6966467a4d4b4)
 * [💬 If you like design and thinking about design, User Friendly by Cliff Kuang is a home run of a book. Just fantastic. You could follow its threads to study further, for a year. 📚
 
 https://cogley.jp/posts/if-you-like-design-and](https://rick.status.lol/rick/6962d7d6dc701)
@@ -30,9 +33,6 @@ https://cogley.jp/articles/ai-vs-creator-dilemma](https://rick.status.lol/rick/6
 * [🏆 Beginner devs it goes without saying, because even a seasoned pro software dev will benefit from roadmap.sh. It&#039;s stunning how much knowledge they&#039;ve packed in their website.
 
 https://cogley.jp/posts/01KEET0KM5543WD176T6ERZHAF](https://rick.status.lol/rick/695fa6038aec0)
-* [💬 The latest version of Rogue Ameba&#039;s Audio Hijack is fantastic. You can really do a lot more with it, but I am using it to make recordings for podcasts, with a chain of processing automation. Good stuff! 
-
-https://cogley.jp/posts/01KEEH9VYYYQGJMD4C5Q1VERPT](https://rick.status.lol/rick/695f98d1db8e6)
 
 ## Stats:
 
@@ -58,7 +58,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月13日 1:49:11 GMT+9<br>
+    更新日付 2026年1月14日 1:51:30 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
