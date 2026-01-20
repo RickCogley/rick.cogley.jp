@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, January 20, 2026
+**Today is:** Wednesday, January 21, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,14 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Love this essay from Ploum about use of chatbots during exams! 🍷
+
+Tell the professor if you usually use chatbots (ChatGPT/LLM/whatever) when doing research and investigating a subject. You have the choice to use them or not during the exam, but you must decide in advance and inform the professor.
+
+https://cogley.jp/posts/01KFDFE6FEV2392XDA9KA9VH0N](https://rick.status.lol/rick/696f59f499878)
+* [💬 We had an old vacuum cleaner battery, and several old mobile phones and portable recharger batteries, which you cannot simply throw out in the trash. I took them to Totsuka ward office 9th floor and deposited them in the recycling receptacle.
+
+https://cogley.jp/posts/01KFCZ3XQXJYW6ZZ982T7NNNCT](https://rick.status.lol/rick/696f171dac633)
 * [💬 Cloudflare is in the process of merging Pages into Workers, so I am migrating a bunch of apps now. 🏔️
 
 https://cogley.jp/posts/01KEVR59S5SQM73FEC68EEGDQ5](https://rick.status.lol/rick/6966467a4d4b4)
@@ -25,14 +33,6 @@ https://cogley.jp/posts/if-you-like-design-and](https://rick.status.lol/rick/696
 * [💬 We at eSolia are leveraging Sveltekit for a platform of dynamic sites and a client site, and it works really well. See what&#039;s new on the Svelte blog. 💻
 
 https://cogley.jp/posts/01KEN1A03NR41Z5HW9BYKAMR3F](https://rick.status.lol/rick/6962d659b3eed)
-* [💼 The web runs on a fundamental bargain: creators publish content, readers consume it, and somewhere in between, value flows back—through advertising, subscriptions, or traffic that converts to business opportunities. AI has upended this equation in ways we&#039;re only beginning to understand. 
-
-This week brought a crystallizing and sobering moment: Tailwind CSS laid off 75% of its engineering team despite being more popular than ever. The framewor…
-
-https://cogley.jp/articles/ai-vs-creator-dilemma](https://rick.status.lol/rick/6960eab0b8fe5)
-* [🏆 Beginner devs it goes without saying, because even a seasoned pro software dev will benefit from roadmap.sh. It&#039;s stunning how much knowledge they&#039;ve packed in their website.
-
-https://cogley.jp/posts/01KEET0KM5543WD176T6ERZHAF](https://rick.status.lol/rick/695fa6038aec0)
 
 ## Stats:
 
@@ -58,7 +58,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月20日 1:50:34 GMT+9<br>
+    更新日付 2026年1月21日 1:52:01 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
