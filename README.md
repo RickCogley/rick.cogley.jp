@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, January 27, 2026
+**Today is:** Wednesday, January 28, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,13 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 I love Cloudflare Radar 
+
+&quot;The last quarter of 2025 brought several notable disruptions to Internet connectivity. Cloudflare Radar data reveals the impact of cable cuts, power outages, extreme weather, technical problems, and more.&quot;
+
+Via The Cloudflare Blog
+
+https://cogley.jp/posts/01KFY0GHQPA6B57BXJ1YTB7D0A](https://rick.status.lol/rick/6977d7c58ea30)
 * [💬 Which AI lies the best? So long sucker might help determine that. 🍪
 
 &quot;(the game) was designed in 1950 by four game theorists including John Nash (of &quot;A Beautiful Mind&quot; fame). The game has one brutal property: betrayal is required to win.&quot;
@@ -32,9 +39,6 @@ https://cogley.jp/posts/01KFCZ3XQXJYW6ZZ982T7NNNCT](https://rick.status.lol/rick
 * [💬 Cloudflare is in the process of merging Pages into Workers, so I am migrating a bunch of apps now. 🏔️
 
 https://cogley.jp/posts/01KEVR59S5SQM73FEC68EEGDQ5](https://rick.status.lol/rick/6966467a4d4b4)
-* [💬 If you like design and thinking about design, User Friendly by Cliff Kuang is a home run of a book. Just fantastic. You could follow its threads to study further, for a year. 📚
-
-https://cogley.jp/posts/if-you-like-design-and](https://rick.status.lol/rick/6962d7d6dc701)
 
 ## Stats:
 
@@ -60,7 +64,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月27日 1:52:53 GMT+9<br>
+    更新日付 2026年1月28日 1:51:14 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
