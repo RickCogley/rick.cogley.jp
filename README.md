@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, January 29, 2026
+**Today is:** Friday, January 30, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Shiori writes about doing a digital detox in eSolia&#039;s Tech IT Easy blog. Stepping back and taking a breath worth a try, sometimes! ⭐
+
+https://cogley.jp/posts/01KG4NN5FD68AJZNNM54N9VEKR](https://rick.status.lol/rick/697b50165a633)
 * [💬 I love Cloudflare Radar 
 
 &quot;The last quarter of 2025 brought several notable disruptions to Internet connectivity. Cloudflare Radar data reveals the impact of cable cuts, power outages, extreme weather, technical problems, and more.&quot;
@@ -36,9 +39,6 @@ https://cogley.jp/posts/01KFDFE6FEV2392XDA9KA9VH0N](https://rick.status.lol/rick
 * [💬 We had an old vacuum cleaner battery, and several old mobile phones and portable recharger batteries, which you cannot simply throw out in the trash. I took them to Totsuka ward office 9th floor and deposited them in the recycling receptacle.
 
 https://cogley.jp/posts/01KFCZ3XQXJYW6ZZ982T7NNNCT](https://rick.status.lol/rick/696f171dac633)
-* [💬 Cloudflare is in the process of merging Pages into Workers, so I am migrating a bunch of apps now. 🏔️
-
-https://cogley.jp/posts/01KEVR59S5SQM73FEC68EEGDQ5](https://rick.status.lol/rick/6966467a4d4b4)
 
 ## Stats:
 
@@ -47,8 +47,8 @@ https://cogley.jp/posts/01KEVR59S5SQM73FEC68EEGDQ5](https://rick.status.lol/rick
 | Total Files | 143 |
 | Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
-| Deno Version | 2.6.6 |
-| V8 Version | 14.2.231.17-rusty |
+| Deno Version | 2.6.7 |
+| V8 Version | 14.5.201.2-rusty |
 | Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
 
@@ -64,7 +64,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月29日 1:55:19 GMT+9<br>
+    更新日付 2026年1月30日 1:56:34 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
