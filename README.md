@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, January 30, 2026
+**Today is:** Saturday, January 31, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Who needs research showing AI assistance won&#039;t really help novice coders? AIs are great at executing fast but don&#039;t yet reason well and cannot replace human experience.
+
+https://cogley.jp/posts/01KG7BVN7FQ3QMH9RBN6HN0CCY](https://rick.status.lol/rick/697c9c289af21)
 * [💬 Shiori writes about doing a digital detox in eSolia&#039;s Tech IT Easy blog. Stepping back and taking a breath worth a try, sometimes! ⭐
 
 https://cogley.jp/posts/01KG4NN5FD68AJZNNM54N9VEKR](https://rick.status.lol/rick/697b50165a633)
@@ -36,9 +39,6 @@ https://cogley.jp/posts/01KFF64JBS155M75JPHDNB3EDV](https://rick.status.lol/rick
 Tell the professor if you usually use chatbots (ChatGPT/LLM/whatever) when doing research and investigating a subject. You have the choice to use them or not during the exam, but you must decide in advance and inform the professor.
 
 https://cogley.jp/posts/01KFDFE6FEV2392XDA9KA9VH0N](https://rick.status.lol/rick/696f59f499878)
-* [💬 We had an old vacuum cleaner battery, and several old mobile phones and portable recharger batteries, which you cannot simply throw out in the trash. I took them to Totsuka ward office 9th floor and deposited them in the recycling receptacle.
-
-https://cogley.jp/posts/01KFCZ3XQXJYW6ZZ982T7NNNCT](https://rick.status.lol/rick/696f171dac633)
 
 ## Stats:
 
@@ -64,7 +64,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月30日 1:56:34 GMT+9<br>
+    更新日付 2026年1月31日 1:56:01 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
