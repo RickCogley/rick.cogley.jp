@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Saturday, January 31, 2026
+**Today is:** Sunday, February 1, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,13 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 Cloudflare has indicated that Pages will be merged into the Workers platform eventually, unifying into one product. Nothing needs to change immediately and you don&#039;t yet need to migrate as of Jan 2026, but there are compelling reasons to migrate, and this guide intends to show you the details. 
+
+What&#039;s Actually Happening?
+
+On Reddit and Hacker News, people are assuming Cloudflare is sunsetting Pages, but that does not appear t…
+
+https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/697d74a812308)
 * [💬 Who needs research showing AI assistance won&#039;t really help novice coders? AIs are great at executing fast but don&#039;t yet reason well and cannot replace human experience.
 
 https://cogley.jp/posts/01KG7BVN7FQ3QMH9RBN6HN0CCY](https://rick.status.lol/rick/697c9c289af21)
@@ -34,11 +41,6 @@ https://cogley.jp/posts/01KFY0GHQPA6B57BXJ1YTB7D0A](https://rick.status.lol/rick
 &quot;(the game) was designed in 1950 by four game theorists including John Nash (of &quot;A Beautiful Mind&quot; fame). The game has one brutal property: betrayal is required to win.&quot;
 
 https://cogley.jp/posts/01KFF64JBS155M75JPHDNB3EDV](https://rick.status.lol/rick/69703a008b234)
-* [💬 Love this essay from Ploum about use of chatbots during exams! 🍷
-
-Tell the professor if you usually use chatbots (ChatGPT/LLM/whatever) when doing research and investigating a subject. You have the choice to use them or not during the exam, but you must decide in advance and inform the professor.
-
-https://cogley.jp/posts/01KFDFE6FEV2392XDA9KA9VH0N](https://rick.status.lol/rick/696f59f499878)
 
 ## Stats:
 
@@ -64,7 +66,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年1月31日 1:56:01 GMT+9<br>
+    更新日付 2026年2月1日 1:49:39 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
