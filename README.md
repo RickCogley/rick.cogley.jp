@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, February 6, 2026
+**Today is:** Saturday, February 7, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,14 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Thought-provoking essay on systems thinking. Of those 3000 tangled systems they mention, imagine how many are only understood by 1 or 2 people and you start to see how politics factors in cleaning up techical debt. ❌
+
+Via (Hacker News)[https://news.ycombinator.com/item?id=46909439]
+
+https://cogley.jp/posts/01KGSG8631CJ3J01AS6DHQFSFA](https://rick.status.lol/rick/6985e4797d4c5)
+* [⚡ I&#039;m planning a new feature in one of our security monitoring systems, and so far, Anthropic&#039;s just-released Opus 4.6 model is just outstanding in its ability to suss out every detail. Color me impressed, Claude!
+
+https://cogley.jp/posts/01KGQPA9ZW3EBVNKWJP4NZ389X](https://rick.status.lol/rick/6984f7266ab00)
 * [🔧 Cloudflare has indicated that Pages will be merged into the Workers platform eventually, unifying into one product. Nothing needs to change immediately and you don&#039;t yet need to migrate as of Jan 2026, but there are compelling reasons to migrate, and this guide intends to show you the details. 
 
 What&#039;s Actually Happening?
@@ -29,18 +37,6 @@ https://cogley.jp/posts/01KG7BVN7FQ3QMH9RBN6HN0CCY](https://rick.status.lol/rick
 * [💬 Shiori writes about doing a digital detox in eSolia&#039;s Tech IT Easy blog. Stepping back and taking a breath worth a try, sometimes! ⭐
 
 https://cogley.jp/posts/01KG4NN5FD68AJZNNM54N9VEKR](https://rick.status.lol/rick/697b50165a633)
-* [💬 I love Cloudflare Radar 
-
-&quot;The last quarter of 2025 brought several notable disruptions to Internet connectivity. Cloudflare Radar data reveals the impact of cable cuts, power outages, extreme weather, technical problems, and more.&quot;
-
-Via The Cloudflare Blog
-
-https://cogley.jp/posts/01KFY0GHQPA6B57BXJ1YTB7D0A](https://rick.status.lol/rick/6977d7c58ea30)
-* [💬 Which AI lies the best? So long sucker might help determine that. 🍪
-
-&quot;(the game) was designed in 1950 by four game theorists including John Nash (of &quot;A Beautiful Mind&quot; fame). The game has one brutal property: betrayal is required to win.&quot;
-
-https://cogley.jp/posts/01KFF64JBS155M75JPHDNB3EDV](https://rick.status.lol/rick/69703a008b234)
 
 ## Stats:
 
@@ -66,7 +62,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月6日 1:59:39 GMT+9<br>
+    更新日付 2026年2月7日 1:58:32 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
