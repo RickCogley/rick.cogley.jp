@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Sunday, February 8, 2026
+**Today is:** Monday, February 9, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 I feel a little vindicated, having always thought key rotation is ‘security theater’. Thanks Linus. 👍
+
+https://cogley.jp/posts/01KGX4NF76EMVZE22Z2X3Z2892](https://rick.status.lol/rick/6987c14992994)
 * [💬 Thought-provoking essay on systems thinking. Of those 3000 tangled systems they mention, imagine how many are only understood by 1 or 2 people and you start to see how politics factors in cleaning up techical debt. ❌
 
 Via (Hacker News)[https://news.ycombinator.com/item?id=46909439]
@@ -34,9 +37,6 @@ https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.s
 * [💬 Who needs research showing AI assistance won&#039;t really help novice coders? AIs are great at executing fast but don&#039;t yet reason well and cannot replace human experience.
 
 https://cogley.jp/posts/01KG7BVN7FQ3QMH9RBN6HN0CCY](https://rick.status.lol/rick/697c9c289af21)
-* [💬 Shiori writes about doing a digital detox in eSolia&#039;s Tech IT Easy blog. Stepping back and taking a breath worth a try, sometimes! ⭐
-
-https://cogley.jp/posts/01KG4NN5FD68AJZNNM54N9VEKR](https://rick.status.lol/rick/697b50165a633)
 
 ## Stats:
 
@@ -62,7 +62,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月8日 1:51:07 GMT+9<br>
+    更新日付 2026年2月9日 1:51:11 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
