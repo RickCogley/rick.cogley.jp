@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Monday, February 9, 2026
+**Today is:** Tuesday, February 10, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Stayed at the Daiwa Roynet Shimbashi and was pleasantly surprised. No BS about handing over my id at check-in, room was small but well designed, shower was great, breakfast good.
+
+https://cogley.jp/posts/01KGZJXSYFYSVYRAX9669F2MFA](https://rick.status.lol/rick/698901d4dd86b)
 * [💬 I feel a little vindicated, having always thought key rotation is ‘security theater’. Thanks Linus. 👍
 
 https://cogley.jp/posts/01KGX4NF76EMVZE22Z2X3Z2892](https://rick.status.lol/rick/6987c14992994)
@@ -34,9 +37,6 @@ What&#039;s Actually Happening?
 On Reddit and Hacker News, people are assuming Cloudflare is sunsetting Pages, but that does not appear t…
 
 https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/697d74a812308)
-* [💬 Who needs research showing AI assistance won&#039;t really help novice coders? AIs are great at executing fast but don&#039;t yet reason well and cannot replace human experience.
-
-https://cogley.jp/posts/01KG7BVN7FQ3QMH9RBN6HN0CCY](https://rick.status.lol/rick/697c9c289af21)
 
 ## Stats:
 
@@ -62,7 +62,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月9日 1:51:11 GMT+9<br>
+    更新日付 2026年2月10日 2:00:36 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
