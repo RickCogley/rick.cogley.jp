@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Wednesday, February 11, 2026
+**Today is:** Thursday, February 12, 2026 (建国記念の日)
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,12 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Saw a rare radio setup in the park this rainy morning. There&#039;s a wire leading from what looks like a yagi antenna to the car, so I imagine someone is in there going &quot;CQ, CQ, Calling CQ&quot;!
+
+https://cogley.jp/posts/01KH56342MV6ZX1Q2DCRPZ1N6B](https://rick.status.lol/rick/698bdfafa1f4f)
+* [💬 In the future when AI is generating based on training based on artifacts it generated in the first place… there might need to be a renaissance for human creation. ❓
+
+https://cogley.jp/posts/01KH4WK6E2WJBNBMMWBEARFFB3](https://rick.status.lol/rick/698bb8d94b411)
 * [💬 If you&#039;re using AI in your work, are you finding it to be too intense sometimes, even exhausting? I&#039;m finding I can get a lot done, but that I&#039;m also sometimes resisting even thinking about using an AI for anything until I am fully rested and have stepped away for a while. I&#039;d love to hear how people are feeling about it. 👑
 
 https://cogley.jp/posts/01KH3WCRPV5DN4QAAGXZKST2YN](https://rick.status.lol/rick/698b34e755865)
@@ -25,14 +31,6 @@ https://cogley.jp/posts/01KGZJXSYFYSVYRAX9669F2MFA](https://rick.status.lol/rick
 * [💬 I feel a little vindicated, having always thought key rotation is ‘security theater’. Thanks Linus. 👍
 
 https://cogley.jp/posts/01KGX4NF76EMVZE22Z2X3Z2892](https://rick.status.lol/rick/6987c14992994)
-* [💬 Thought-provoking essay on systems thinking. Of those 3000 tangled systems they mention, imagine how many are only understood by 1 or 2 people and you start to see how politics factors in cleaning up techical debt. ❌
-
-Via (Hacker News)[https://news.ycombinator.com/item?id=46909439]
-
-https://cogley.jp/posts/01KGSG8631CJ3J01AS6DHQFSFA](https://rick.status.lol/rick/6985e4797d4c5)
-* [⚡ I&#039;m planning a new feature in one of our security monitoring systems, and so far, Anthropic&#039;s just-released Opus 4.6 model is just outstanding in its ability to suss out every detail. Color me impressed, Claude!
-
-https://cogley.jp/posts/01KGQPA9ZW3EBVNKWJP4NZ389X](https://rick.status.lol/rick/6984f7266ab00)
 
 ## Stats:
 
@@ -41,7 +39,7 @@ https://cogley.jp/posts/01KGQPA9ZW3EBVNKWJP4NZ389X](https://rick.status.lol/rick
 | Total Files | 143 |
 | Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
-| Deno Version | 2.6.8 |
+| Deno Version | 2.6.9 |
 | V8 Version | 14.5.201.2-rusty |
 | Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
@@ -58,7 +56,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月11日 2:01:22 GMT+9<br>
+    更新日付 2026年2月12日 2:01:43 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
