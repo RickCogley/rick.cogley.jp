@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, February 12, 2026 (建国記念の日)
+**Today is:** Friday, February 13, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,11 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 Do you feel the same? You&#039;ve been working in React (or Vue, or Angular) for years, shipping production code, wrestling with dependency arrays, wrapping vanilla JS libraries in framework-specific adapters, and wondering why your  weighs more than your actual appl. Then you hear about Svelte 5 and its runes — , ,  — and something clicks. You want to try it, but the migration path feels pretty rocky.
+
+That&#039;s the gap my new si…
+
+https://cogley.jp/articles/migrate-to-svelte-5-interactive-reference](https://rick.status.lol/rick/698d42a2aabde)
 * [💬 Saw a rare radio setup in the park this rainy morning. There&#039;s a wire leading from what looks like a yagi antenna to the car, so I imagine someone is in there going &quot;CQ, CQ, Calling CQ&quot;!
 
 https://cogley.jp/posts/01KH56342MV6ZX1Q2DCRPZ1N6B](https://rick.status.lol/rick/698bdfafa1f4f)
@@ -28,9 +33,6 @@ https://cogley.jp/posts/01KH3WCRPV5DN4QAAGXZKST2YN](https://rick.status.lol/rick
 * [💬 Stayed at the Daiwa Roynet Shimbashi and was pleasantly surprised. No BS about handing over my id at check-in, room was small but well designed, shower was great, breakfast good.
 
 https://cogley.jp/posts/01KGZJXSYFYSVYRAX9669F2MFA](https://rick.status.lol/rick/698901d4dd86b)
-* [💬 I feel a little vindicated, having always thought key rotation is ‘security theater’. Thanks Linus. 👍
-
-https://cogley.jp/posts/01KGX4NF76EMVZE22Z2X3Z2892](https://rick.status.lol/rick/6987c14992994)
 
 ## Stats:
 
@@ -56,7 +58,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月12日 2:01:43 GMT+9<br>
+    更新日付 2026年2月13日 2:00:49 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
