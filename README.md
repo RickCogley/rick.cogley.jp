@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, February 13, 2026
+**Today is:** Saturday, February 14, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [😢 Struggling with GoDaddy support. Moved a domain&#039;s NS to Cloudflare, then setting DNSSEC, for which GD are required to submit a DS record to the parent zone (managed by the TLD registry, e.g., JPRS for .jp), but they claim the NS has to be controlled by them to do it. It&#039;s required by ICANN you twits! 🌧️
+
+https://cogley.jp/posts/01KHAEK1Z0V5PPKTMC5MBPXKRA](https://rick.status.lol/rick/698e925eca0a0)
 * [🔧 Do you feel the same? You&#039;ve been working in React (or Vue, or Angular) for years, shipping production code, wrestling with dependency arrays, wrapping vanilla JS libraries in framework-specific adapters, and wondering why your  weighs more than your actual appl. Then you hear about Svelte 5 and its runes — , ,  — and something clicks. You want to try it, but the migration path feels pretty rocky.
 
 That&#039;s the gap my new si…
@@ -30,9 +33,6 @@ https://cogley.jp/posts/01KH4WK6E2WJBNBMMWBEARFFB3](https://rick.status.lol/rick
 * [💬 If you&#039;re using AI in your work, are you finding it to be too intense sometimes, even exhausting? I&#039;m finding I can get a lot done, but that I&#039;m also sometimes resisting even thinking about using an AI for anything until I am fully rested and have stepped away for a while. I&#039;d love to hear how people are feeling about it. 👑
 
 https://cogley.jp/posts/01KH3WCRPV5DN4QAAGXZKST2YN](https://rick.status.lol/rick/698b34e755865)
-* [💬 Stayed at the Daiwa Roynet Shimbashi and was pleasantly surprised. No BS about handing over my id at check-in, room was small but well designed, shower was great, breakfast good.
-
-https://cogley.jp/posts/01KGZJXSYFYSVYRAX9669F2MFA](https://rick.status.lol/rick/698901d4dd86b)
 
 ## Stats:
 
@@ -58,7 +58,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月13日 2:00:49 GMT+9<br>
+    更新日付 2026年2月14日 1:58:55 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
