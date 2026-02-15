@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Sunday, February 15, 2026
+**Today is:** Monday, February 16, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,12 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🎯 I had used CocoaTech Path Finder Finder replacement and was going to try again but their AI chatbot couldn’t tell me if it runs on Tahoe, and the website is uncanny valley creepy now, so I’m trying Bloom App. So far so good!
+
+https://cogley.jp/posts/01KHFNKSRH28GV673W94Q7TD5F](https://rick.status.lol/rick/69913e0843273)
+* [💬 I rode the scooter down Rt 30 to T-Site Shonan in Fujisawa, thinking how I’d never do that on the Rt 30 near home in PA! ⚠️
+
+https://cogley.jp/posts/01KHFMPZC1F7AFMRT4TCTRD2DQ](https://rick.status.lol/rick/69913a4deea4f)
 * [😢 Struggling with GoDaddy support. Moved a domain&#039;s NS to Cloudflare, then setting DNSSEC, for which GD are required to submit a DS record to the parent zone (managed by the TLD registry, e.g., JPRS for .jp), but they claim the NS has to be controlled by them to do it. It&#039;s required by ICANN you twits! 🌧️
 
 https://cogley.jp/posts/01KHAEK1Z0V5PPKTMC5MBPXKRA](https://rick.status.lol/rick/698e925eca0a0)
@@ -27,12 +33,6 @@ https://cogley.jp/articles/migrate-to-svelte-5-interactive-reference](https://ri
 * [💬 Saw a rare radio setup in the park this rainy morning. There&#039;s a wire leading from what looks like a yagi antenna to the car, so I imagine someone is in there going &quot;CQ, CQ, Calling CQ&quot;!
 
 https://cogley.jp/posts/01KH56342MV6ZX1Q2DCRPZ1N6B](https://rick.status.lol/rick/698bdfafa1f4f)
-* [💬 In the future when AI is generating based on training based on artifacts it generated in the first place… there might need to be a renaissance for human creation. ❓
-
-https://cogley.jp/posts/01KH4WK6E2WJBNBMMWBEARFFB3](https://rick.status.lol/rick/698bb8d94b411)
-* [💬 If you&#039;re using AI in your work, are you finding it to be too intense sometimes, even exhausting? I&#039;m finding I can get a lot done, but that I&#039;m also sometimes resisting even thinking about using an AI for anything until I am fully rested and have stepped away for a while. I&#039;d love to hear how people are feeling about it. 👑
-
-https://cogley.jp/posts/01KH3WCRPV5DN4QAAGXZKST2YN](https://rick.status.lol/rick/698b34e755865)
 
 ## Stats:
 
@@ -58,7 +58,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月15日 1:51:06 GMT+9<br>
+    更新日付 2026年2月16日 1:51:03 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
