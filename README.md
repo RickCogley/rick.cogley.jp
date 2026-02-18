@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Wednesday, February 18, 2026
+**Today is:** Thursday, February 19, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,15 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 The AI crawl-and-summarize wave has landed. Google&#039;s Gemini, OpenAI&#039;s GPT, Anthropic&#039;s Claude, Perplexity — they&#039;re all hitting your site. If you serve them HTML, they waste tokens parsing AcceptAcceptmermaid
+flowchart TD
+    A[Incoming Request] --&gt; B{Accept: text/markdown?or ?format=md}
+    B --&gt;|Yes| C[handleMarkdownRequest]
+    C --&gt; D{Route matched?}
+    D --&gt;|Yes| E[Fetch API data viaService Binding]
+    E -…
+
+https://cogley.jp/articles/markdown-for-agents-on-sveltekit-cloudflare-workers](https://rick.status.lol/rick/6995b4da801f5)
 * [🎯 I had used CocoaTech Path Finder Finder replacement and was going to try again but their AI chatbot couldn’t tell me if it runs on Tahoe, and the website is uncanny valley creepy now, so I’m trying Bloom App. So far so good!
 
 https://cogley.jp/posts/01KHFNKSRH28GV673W94Q7TD5F](https://rick.status.lol/rick/69913e0843273)
@@ -30,9 +39,6 @@ https://cogley.jp/posts/01KHAEK1Z0V5PPKTMC5MBPXKRA](https://rick.status.lol/rick
 That&#039;s the gap my new si…
 
 https://cogley.jp/articles/migrate-to-svelte-5-interactive-reference](https://rick.status.lol/rick/698d42a2aabde)
-* [💬 Saw a rare radio setup in the park this rainy morning. There&#039;s a wire leading from what looks like a yagi antenna to the car, so I imagine someone is in there going &quot;CQ, CQ, Calling CQ&quot;!
-
-https://cogley.jp/posts/01KH56342MV6ZX1Q2DCRPZ1N6B](https://rick.status.lol/rick/698bdfafa1f4f)
 
 ## Stats:
 
@@ -58,7 +64,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月18日 2:00:33 GMT+9<br>
+    更新日付 2026年2月19日 2:01:27 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
