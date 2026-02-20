@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, February 20, 2026
+**Today is:** Saturday, February 21, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,15 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 An AI agent asks: &quot;What&#039;s the Svelte 5 equivalent of useEffect?&quot; Today it has two options — scrape the page HTML and parse it, or fetch  and filter 100+ items in context. Both work ok, but they both waste tokens. 🍪
+
+WebMCP gives our AI agent a third option: call  and get a structured answer directly. The data is the same. The interface is purpose-built for agents.
+
+What WebMCP Is
+
+WebMCP is a W3C Community…
+
+https://cogley.jp/articles/enabling-webmcp-tools-on-my-sveltekit-migration-reference](https://rick.status.lol/rick/6997ad0f24603)
 * [🔧 The AI crawl-and-summarize wave has landed. Google&#039;s Gemini, OpenAI&#039;s GPT, Anthropic&#039;s Claude, Perplexity — they&#039;re all hitting your site. If you serve them HTML, they waste tokens parsing AcceptAcceptmermaid
 flowchart TD
     A[Incoming Request] --&gt; B{Accept: text/markdown?or ?format=md}
@@ -34,11 +43,6 @@ https://cogley.jp/posts/01KHFMPZC1F7AFMRT4TCTRD2DQ](https://rick.status.lol/rick
 * [😢 Struggling with GoDaddy support. Moved a domain&#039;s NS to Cloudflare, then setting DNSSEC, for which GD are required to submit a DS record to the parent zone (managed by the TLD registry, e.g., JPRS for .jp), but they claim the NS has to be controlled by them to do it. It&#039;s required by ICANN you twits! 🌧️
 
 https://cogley.jp/posts/01KHAEK1Z0V5PPKTMC5MBPXKRA](https://rick.status.lol/rick/698e925eca0a0)
-* [🔧 Do you feel the same? You&#039;ve been working in React (or Vue, or Angular) for years, shipping production code, wrestling with dependency arrays, wrapping vanilla JS libraries in framework-specific adapters, and wondering why your  weighs more than your actual appl. Then you hear about Svelte 5 and its runes — , ,  — and something clicks. You want to try it, but the migration path feels pretty rocky.
-
-That&#039;s the gap my new si…
-
-https://cogley.jp/articles/migrate-to-svelte-5-interactive-reference](https://rick.status.lol/rick/698d42a2aabde)
 
 ## Stats:
 
@@ -64,7 +68,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月20日 2:00:12 GMT+9<br>
+    更新日付 2026年2月21日 1:56:13 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
