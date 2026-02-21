@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Saturday, February 21, 2026
+**Today is:** Sunday, February 22, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 J brought Matterhorn choco and K brought homemade cookies and bread, we&#039;re blessed! ☕
+
+https://cogley.jp/posts/01KHZH9EG12EMBXG3G9Y79YYED](https://rick.status.lol/rick/69995d71c3ac4)
 * [🔧 An AI agent asks: &quot;What&#039;s the Svelte 5 equivalent of useEffect?&quot; Today it has two options — scrape the page HTML and parse it, or fetch  and filter 100+ items in context. Both work ok, but they both waste tokens. 🍪
 
 WebMCP gives our AI agent a third option: call  and get a structured answer directly. The data is the same. The interface is purpose-built for agents.
@@ -40,9 +43,6 @@ https://cogley.jp/posts/01KHFNKSRH28GV673W94Q7TD5F](https://rick.status.lol/rick
 * [💬 I rode the scooter down Rt 30 to T-Site Shonan in Fujisawa, thinking how I’d never do that on the Rt 30 near home in PA! ⚠️
 
 https://cogley.jp/posts/01KHFMPZC1F7AFMRT4TCTRD2DQ](https://rick.status.lol/rick/69913a4deea4f)
-* [😢 Struggling with GoDaddy support. Moved a domain&#039;s NS to Cloudflare, then setting DNSSEC, for which GD are required to submit a DS record to the parent zone (managed by the TLD registry, e.g., JPRS for .jp), but they claim the NS has to be controlled by them to do it. It&#039;s required by ICANN you twits! 🌧️
-
-https://cogley.jp/posts/01KHAEK1Z0V5PPKTMC5MBPXKRA](https://rick.status.lol/rick/698e925eca0a0)
 
 ## Stats:
 
@@ -68,7 +68,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月21日 1:56:13 GMT+9<br>
+    更新日付 2026年2月22日 1:50:00 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
