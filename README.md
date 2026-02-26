@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, February 26, 2026
+**Today is:** Friday, February 27, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [😊 Got some made-in-Japan Shoes Like Pottery shoes, which are super comfy. They are flat, with a grippy tread-less sole, and already feel like I have had them for a while. Great! ❤️
+
+https://cogley.jp/posts/01KJCJF9PKDT67FENHC6BQ4FC6](https://rick.status.lol/rick/69a00a385354a)
 * [💬 J brought Matterhorn choco and K brought homemade cookies and bread, we&#039;re blessed! ☕
 
 https://cogley.jp/posts/01KHZH9EG12EMBXG3G9Y79YYED](https://rick.status.lol/rick/69995d71c3ac4)
@@ -40,9 +43,6 @@ https://cogley.jp/articles/markdown-for-agents-on-sveltekit-cloudflare-workers](
 * [🎯 I had used CocoaTech Path Finder Finder replacement and was going to try again but their AI chatbot couldn’t tell me if it runs on Tahoe, and the website is uncanny valley creepy now, so I’m trying Bloom App. So far so good!
 
 https://cogley.jp/posts/01KHFNKSRH28GV673W94Q7TD5F](https://rick.status.lol/rick/69913e0843273)
-* [💬 I rode the scooter down Rt 30 to T-Site Shonan in Fujisawa, thinking how I’d never do that on the Rt 30 near home in PA! ⚠️
-
-https://cogley.jp/posts/01KHFMPZC1F7AFMRT4TCTRD2DQ](https://rick.status.lol/rick/69913a4deea4f)
 
 ## Stats:
 
@@ -51,7 +51,7 @@ https://cogley.jp/posts/01KHFMPZC1F7AFMRT4TCTRD2DQ](https://rick.status.lol/rick
 | Total Files | 143 |
 | Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
-| Deno Version | 2.6.10 |
+| Deno Version | 2.7.1 |
 | V8 Version | 14.5.201.2-rusty |
 | Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
@@ -68,7 +68,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月26日 2:02:24 GMT+9<br>
+    更新日付 2026年2月27日 2:00:54 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
