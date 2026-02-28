@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Saturday, February 28, 2026
+**Today is:** Sunday, March 1, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Watched a TV show with A about a guy who shelters bitey dangerous dogs that people can’t take care of. Half were Shiba!
+
+https://cogley.jp/posts/01KJGE5F3TD58RQHCFPZA1V886](https://rick.status.lol/rick/69a204e254259)
 * [😊 Got some made-in-Japan Shoes Like Pottery shoes, which are super comfy. They are flat, with a grippy tread-less sole, and already feel like I have had them for a while. Great! ❤️
 
 https://cogley.jp/posts/01KJCJF9PKDT67FENHC6BQ4FC6](https://rick.status.lol/rick/69a00a385354a)
@@ -40,9 +43,6 @@ flowchart TD
     E -…
 
 https://cogley.jp/articles/markdown-for-agents-on-sveltekit-cloudflare-workers](https://rick.status.lol/rick/6995b4da801f5)
-* [🎯 I had used CocoaTech Path Finder Finder replacement and was going to try again but their AI chatbot couldn’t tell me if it runs on Tahoe, and the website is uncanny valley creepy now, so I’m trying Bloom App. So far so good!
-
-https://cogley.jp/posts/01KHFNKSRH28GV673W94Q7TD5F](https://rick.status.lol/rick/69913e0843273)
 
 ## Stats:
 
@@ -68,7 +68,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年2月28日 1:55:06 GMT+9<br>
+    更新日付 2026年3月1日 1:47:06 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
