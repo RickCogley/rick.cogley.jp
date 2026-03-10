@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, March 10, 2026
+**Today is:** Wednesday, March 11, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Bing Webmaster Tools is just awful. You do all the recommendations, use IndexNow to submit, manually submit the sitemap, make sure robots.txt is not blocking, and nothing, it simply won&#039;t index you. You cannot even make a support ticket because it just loops and loops with no end. Someone needs to lay off the agentic coding crack pipe and fix it properly. ⚡
+
+https://cogley.jp/posts/01KKAA3XRSCY84Y5NJJKRM9WX1](https://rick.status.lol/rick/69af44921bfbb)
 * [💬 Watched a TV show with A about a guy who shelters bitey dangerous dogs that people can’t take care of. Half were Shiba!
 
 https://cogley.jp/posts/01KJGE5F3TD58RQHCFPZA1V886](https://rick.status.lol/rick/69a204e254259)
@@ -34,15 +37,6 @@ What WebMCP Is
 WebMCP is a W3C Community…
 
 https://cogley.jp/articles/enabling-webmcp-tools-on-my-sveltekit-migration-reference](https://rick.status.lol/rick/6997ad0f24603)
-* [🔧 The AI crawl-and-summarize wave has landed. Google&#039;s Gemini, OpenAI&#039;s GPT, Anthropic&#039;s Claude, Perplexity — they&#039;re all hitting your site. If you serve them HTML, they waste tokens parsing AcceptAcceptmermaid
-flowchart TD
-    A[Incoming Request] --&gt; B{Accept: text/markdown?or ?format=md}
-    B --&gt;|Yes| C[handleMarkdownRequest]
-    C --&gt; D{Route matched?}
-    D --&gt;|Yes| E[Fetch API data viaService Binding]
-    E -…
-
-https://cogley.jp/articles/markdown-for-agents-on-sveltekit-cloudflare-workers](https://rick.status.lol/rick/6995b4da801f5)
 
 ## Stats:
 
@@ -68,7 +62,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月10日 1:59:59 GMT+9<br>
+    更新日付 2026年3月11日 1:59:59 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
