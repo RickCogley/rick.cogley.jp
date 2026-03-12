@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, March 12, 2026
+**Today is:** Friday, March 13, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [❤️ Got some premium mint balm from J. Love the scent and feel of it. Thanks! 🐦
+
+https://cogley.jp/posts/01KKGSSWXYSHYT88JGA1AHH7CF](https://rick.status.lol/rick/69b296d323e1d)
 * [💬 Bing Webmaster Tools is just awful. You do all the recommendations, use IndexNow to submit, manually submit the sitemap, make sure robots.txt is not blocking, and nothing, it simply won&#039;t index you. You cannot even make a support ticket because it just loops and loops with no end. Someone needs to lay off the agentic coding crack pipe and fix it properly. ⚡
 
 https://cogley.jp/posts/01KKAA3XRSCY84Y5NJJKRM9WX1](https://rick.status.lol/rick/69af44921bfbb)
@@ -28,15 +31,6 @@ https://cogley.jp/posts/01KJCJF9PKDT67FENHC6BQ4FC6](https://rick.status.lol/rick
 * [💬 J brought Matterhorn choco and K brought homemade cookies and bread, we&#039;re blessed! ☕
 
 https://cogley.jp/posts/01KHZH9EG12EMBXG3G9Y79YYED](https://rick.status.lol/rick/69995d71c3ac4)
-* [🔧 An AI agent asks: &quot;What&#039;s the Svelte 5 equivalent of useEffect?&quot; Today it has two options — scrape the page HTML and parse it, or fetch  and filter 100+ items in context. Both work ok, but they both waste tokens. 🍪
-
-WebMCP gives our AI agent a third option: call  and get a structured answer directly. The data is the same. The interface is purpose-built for agents.
-
-What WebMCP Is
-
-WebMCP is a W3C Community…
-
-https://cogley.jp/articles/enabling-webmcp-tools-on-my-sveltekit-migration-reference](https://rick.status.lol/rick/6997ad0f24603)
 
 ## Stats:
 
@@ -62,7 +56,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月12日 2:00:01 GMT+9<br>
+    更新日付 2026年3月13日 2:00:21 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
