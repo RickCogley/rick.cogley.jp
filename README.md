@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Sunday, March 15, 2026
+**Today is:** Monday, March 16, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,13 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 Vite 8 dropped on March 12, 2026. Two days later, we&#039;d migrated 8 SvelteKit projects — a mix of monorepos and standalone sites, all deployed to Cloudflare Workers. The migration was mostly mechanical, and the builds got faster. Let me share a couple lessons learned. ☕
+
+What Vite 8 Changes
+
+Vite 8 replaces a kind of &quot;split-brain&quot; bundler architecture. Vite 7 used esbuild for development transforms and dependency optimization, then swit…
+
+https://cogley.jp/articles/migrating-sveltekit-to-vite-8](https://rick.status.lol/rick/69b6096440ee3)
 * [💬 Updated 10 SvelteKit apps to use vite 8. Very quick to build, uses rolldown and lightning, can write local dev errors to console std out. Very useful and kudos to that team.
 
 https://cogley.jp/posts/01KKKPK12CTQXX20WG82TKFCKR](https://rick.status.lol/rick/69b413426ca34)
@@ -28,9 +35,6 @@ https://cogley.jp/posts/01KKGSSWXYSHYT88JGA1AHH7CF](https://rick.status.lol/rick
 * [💬 Bing Webmaster Tools is just awful. You do all the recommendations, use IndexNow to submit, manually submit the sitemap, make sure robots.txt is not blocking, and nothing, it simply won&#039;t index you. You cannot even make a support ticket because it just loops and loops with no end. Someone needs to lay off the agentic coding crack pipe and fix it properly. ⚡
 
 https://cogley.jp/posts/01KKAA3XRSCY84Y5NJJKRM9WX1](https://rick.status.lol/rick/69af44921bfbb)
-* [💬 Watched a TV show with A about a guy who shelters bitey dangerous dogs that people can’t take care of. Half were Shiba!
-
-https://cogley.jp/posts/01KJGE5F3TD58RQHCFPZA1V886](https://rick.status.lol/rick/69a204e254259)
 
 ## Stats:
 
@@ -56,7 +60,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月15日 1:51:03 GMT+9<br>
+    更新日付 2026年3月16日 1:50:37 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
