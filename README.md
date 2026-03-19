@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, March 19, 2026
+**Today is:** Friday, March 20, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🎯 I wrote a long-form article about data sovereignty on my company site, after seeing some sales pitches trying to get companies to invest in &#039;private cloud&#039; which means, buying servers and software. Such a setup might be needed for key infrastructure providers in Japan like TEPCO etc, but not for most mid-market companies.
+
+https://cogley.jp/posts/01KM2DD7RSCNDD03JEJHYPD91H](https://rick.status.lol/rick/69bb9b74d1059)
 * [🔧 Vite 8 dropped on March 12, 2026. Two days later, we&#039;d migrated 8 SvelteKit projects — a mix of monorepos and standalone sites, all deployed to Cloudflare Workers. The migration was mostly mechanical, and the builds got faster. Let me share a couple lessons learned. ☕
 
 What Vite 8 Changes
@@ -32,9 +35,6 @@ https://cogley.jp/posts/01KKJ8TSBAJ9R1HJ55X9CCMGRE](https://rick.status.lol/rick
 * [❤️ Got some premium mint balm from J. Love the scent and feel of it. Thanks! 🐦
 
 https://cogley.jp/posts/01KKGSSWXYSHYT88JGA1AHH7CF](https://rick.status.lol/rick/69b296d323e1d)
-* [💬 Bing Webmaster Tools is just awful. You do all the recommendations, use IndexNow to submit, manually submit the sitemap, make sure robots.txt is not blocking, and nothing, it simply won&#039;t index you. You cannot even make a support ticket because it just loops and loops with no end. Someone needs to lay off the agentic coding crack pipe and fix it properly. ⚡
-
-https://cogley.jp/posts/01KKAA3XRSCY84Y5NJJKRM9WX1](https://rick.status.lol/rick/69af44921bfbb)
 
 ## Stats:
 
@@ -43,7 +43,7 @@ https://cogley.jp/posts/01KKAA3XRSCY84Y5NJJKRM9WX1](https://rick.status.lol/rick
 | Total Files | 143 |
 | Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
-| Deno Version | 2.7.6 |
+| Deno Version | 2.7.7 |
 | V8 Version | 14.6.202.9-rusty |
 | Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
@@ -60,7 +60,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月19日 2:00:58 GMT+9<br>
+    更新日付 2026年3月20日 2:00:33 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
