@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, March 20, 2026
+**Today is:** Saturday, March 21, 2026 (春分の日)
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,19 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Learners of Japanese: I revamped my &#039;goroawase&#039; Japanese word play page to make it interactive. Check it out!
+
+https://cogley.jp/posts/01KM588JVSVMPXRD4HZ2G4WVTQ](https://rick.status.lol/rick/69bd0ff34fd29)
+* [💬 Learners of Japanese: I revamped my &#039;goroawase&#039; Japanese word play page to make it interactive. Check it out!
+
+https://cogley.jp/posts/01KM588JVSVMPXRD4HZ2G4WVTQ](https://rick.status.lol/rick/69bd0fc4dc2a6)
+* [🔧 Cloudflare is folding Pages into Workers. Pages isn&#039;t getting killed tomorrow, but all the new stuff lands on Workers only. I migrated all my Pages projects earlier this year and wrote down what tripped me up along the way.
+
+Is Cloudflare sunsetting Pages?
+
+Not exactly. On Reddit and Hacker News, people keep saying &quot;Pages is deprecated&quot; but that&#039;s not quite right. Kenton Varda (Workers tech lead) said: &quot;We are taking all the P…
+
+https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/69bcfd15cb3a4)
 * [🎯 I wrote a long-form article about data sovereignty on my company site, after seeing some sales pitches trying to get companies to invest in &#039;private cloud&#039; which means, buying servers and software. Such a setup might be needed for key infrastructure providers in Japan like TEPCO etc, but not for most mid-market companies.
 
 https://cogley.jp/posts/01KM2DD7RSCNDD03JEJHYPD91H](https://rick.status.lol/rick/69bb9b74d1059)
@@ -26,15 +39,6 @@ What Vite 8 Changes
 Vite 8 replaces a kind of &quot;split-brain&quot; bundler architecture. Vite 7 used esbuild for development transforms and dependency optimization, then swit…
 
 https://cogley.jp/articles/migrating-sveltekit-to-vite-8](https://rick.status.lol/rick/69b6096440ee3)
-* [💬 Updated 10 SvelteKit apps to use vite 8. Very quick to build, uses rolldown and lightning, can write local dev errors to console std out. Very useful and kudos to that team.
-
-https://cogley.jp/posts/01KKKPK12CTQXX20WG82TKFCKR](https://rick.status.lol/rick/69b413426ca34)
-* [💬 Updated migrate to svelte with several improvements, including a section on Svelte Superpowers, various content updates, and links to official Svelte blog posts and other news. 🏔️
-
-https://cogley.jp/posts/01KKJ8TSBAJ9R1HJ55X9CCMGRE](https://rick.status.lol/rick/69b3580aebac6)
-* [❤️ Got some premium mint balm from J. Love the scent and feel of it. Thanks! 🐦
-
-https://cogley.jp/posts/01KKGSSWXYSHYT88JGA1AHH7CF](https://rick.status.lol/rick/69b296d323e1d)
 
 ## Stats:
 
@@ -60,7 +64,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月20日 2:00:33 GMT+9<br>
+    更新日付 2026年3月21日 1:57:48 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
