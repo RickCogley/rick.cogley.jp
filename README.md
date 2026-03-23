@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Monday, March 23, 2026
+**Today is:** Tuesday, March 24, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,29 +16,55 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
-* [💬 Learners of Japanese: I revamped my &#039;goroawase&#039; Japanese word play page to make it interactive. Check it out!
+* [🔧 AIによるクロール・要約の波が押し寄せています。GoogleのGemini、OpenAIのGPT、AnthropicのClaude、Perplexityなど、あらゆるエージェントがあなたのサイトにアクセスしています。HTMLを返せば、AcceptAcceptmermaid
+flowchart TD
+    A[リクエスト受信] --&gt; B{Accept: text/markdownまたは ?format=md}
+    B --&gt;|はい| C[handleMarkdownRequest]
+    C --&gt; D{ルートに一致?}
+    D --&gt;|はい| E[Service Binding経由でAPIデータを取得]
+    E --&gt; F[Markdownとしてフォーマット]
+    F --&gt; G[Responseを返却text/markdown + ヘッダ]
+    D --&gt;|いいえ| H[SSRにフォールスルー]
+    B --&gt;|いいえ| H
+    H --&gt; I[通…
 
-https://cogley.jp/posts/01KM588JVSVMPXRD4HZ2G4WVTQ](https://rick.status.lol/rick/69bd0ff34fd29)
-* [💬 Learners of Japanese: I revamped my &#039;goroawase&#039; Japanese word play page to make it interactive. Check it out!
+https://cogley.jp/articles/markdown-for-agents](https://rick.status.lol/rick/69c0e068e46fe)
+* [🔧 Vite 8は2026年3月12日にリリースされた。その2日後、筆者は8つのSvelteKitプロジェクトを移行し終えた。モノレポとスタンドアロンの混在構成で、すべてCloudflare Workersにデプロイしている。移行はほぼ機械的な作業で、ビルドも速くなった。いくつかの教訓を共有する。 ☕
 
-https://cogley.jp/posts/01KM588JVSVMPXRD4HZ2G4WVTQ](https://rick.status.lol/rick/69bd0fc4dc2a6)
-* [🔧 Cloudflare is folding Pages into Workers. Pages isn&#039;t getting killed tomorrow, but all the new stuff lands on Workers only. I migrated all my Pages projects earlier this year and wrote down what tripped me up along the way.
+Vite 8で何が変わるのか
 
-Is Cloudflare sunsetting Pages?
+Vite 8は、従来の「分裂型」バンドラアーキテクチャを置き換えるものだ。Vite 7では、開発時のトランスフォームと依存関係の最適化にesbuildを使い、本番ビルドではRollupに切り替えていた。2つの異なるツールが重複する仕事をし、それぞれの環境で微妙に異なる挙動を示していた。
 
-Not exactly. On Reddit and Hacker News, people keep saying &quot;Pages is deprecated&quot; but that&#039;s not quite right. Kenton Varda (Workers tech lead) said: &quot;We are taking all the P…
+Vite 8ではRolldownに統一される。RolldownはRustベースのバンドラで、OxcがJavaScriptのトランスフォームとミニファイを担い（esbuildの役割を置き換え）、Lightning CSSがCSSのミニファイを担当する。バ…
 
-https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/69bcfd15cb3a4)
-* [🎯 I wrote a long-form article about data sovereignty on my company site, after seeing some sales pitches trying to get companies to invest in &#039;private cloud&#039; which means, buying servers and software. Such a setup might be needed for key infrastructure providers in Japan like TEPCO etc, but not for most mid-market companies.
+https://cogley.jp/articles/migrating-sveltekit-to-vite-8](https://rick.status.lol/rick/69c0db3db2c5b)
+* [🔧 CloudflareはPagesをWorkersに統合しつつある。Pagesが明日なくなるわけではないが、新機能はすべてWorkers側にのみ追加されている。筆者は2026年初頭に全PagesプロジェクトをWorkersへ移行し、その過程でつまずいたポイントをまとめた。
 
-https://cogley.jp/posts/01KM2DD7RSCNDD03JEJHYPD91H](https://rick.status.lol/rick/69bb9b74d1059)
-* [🔧 Vite 8 dropped on March 12, 2026. Two days later, we&#039;d migrated 8 SvelteKit projects — a mix of monorepos and standalone sites, all deployed to Cloudflare Workers. The migration was mostly mechanical, and the builds got faster. Let me share a couple lessons learned. ☕
+Cloudflare Pagesは廃止されるのか？
 
-What Vite 8 Changes
+正確にはそうではない。RedditやHacker Newsでは「Pagesは非推奨」という声が多いが、実態は少し違う。Workersテックリードの Kenton Varda 氏は「Pages固有の機能をすべて汎用的なWorkers機能に変えていく」と述べている。つまり、製品が廃止されるのではなく、吸収されるのだ。
 
-Vite 8 replaces a kind of &quot;split-brain&quot; bundler architecture. Vite 7 used esbuild for development transforms and dependency optimization, then swit…
+しかしシグナルは明確だ。新機能はWorkersが先行（もしくはWorkers限定）で提供される。Secrets Store、Workflows、Containers、いずれもWorkers専用だ。Pagesはメンテ…
 
-https://cogley.jp/articles/migrating-sveltekit-to-vite-8](https://rick.status.lol/rick/69b6096440ee3)
+https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/69c0bca2bcad4)
+* [🔧 AIエージェントが「Svelte 5での相当は？」と質問するとします。現状では2つの方法があります。ページのHTMLをスクレイピングしてパースするか、を取得して100以上の項目からコンテキスト内でフィルタリングするか。どちらも動作しますが、トークンの無駄遣いです。
+
+WebMCPを使えば、AIエージェントに第3の選択肢が生まれます。を呼び出すだけで、構造化された回答が直接返ってきます。データは同じ。インターフェースがエージェント向けに最適化されています。
+
+WebMCPとは
+
+WebMCPはW3Cコミュニティグループのドラフトで、ブラウザにを追加する仕様です。ウェブサイトがMCPツールをウェブページ上に直接登録できるようになります。Claudeのツール利用やCursorのコンテキストなど、エージェントフレームワークで使われるのと同じプロトコルです。サイトを閲覧するAIエージェントは、スクレイピングなしでツールを発見・呼び…
+
+https://cogley.jp/articles/enabling-webmcp-tools-sveltekit-migration-reference](https://rick.status.lol/rick/69c0a703b6fb2)
+* [🔧 同じ気持ちの方はいませんか？ React（またはVue、Angular）で何年もプロダクションコードを書き、依存配列と格闘し、バニラJSライブラリをフレームワーク固有のアダプターでラップし、がアプリ本体より重いことに疑問を感じている。そんなとき、Svelte 5のrunes — 、、 — を知って、何かがピンとくる。試してみたいけど、移行の道筋が見えない。
+
+そのギャップを埋めるために作ったのが svelte.cogley.jp です。
+
+svelte.cogley.jp とは
+
+React、Vue、AngularからSvelte 5とSvelteKitへの概念マッピングを、構文だけでなくアーキテクチャレベルで提供するインタラクティブリファレンスです。いわばフロントエンドフレームワークの「ロゼッタストーン」です。ソース言語（React、Vue、Angular）を選び、カテゴリ（概要、構文、アーキテクチャ、エコシステム）を選ぶと、各概念がどう…
+
+https://cogley.jp/articles/migrate-to-svelte-5-interactive-reference](https://rick.status.lol/rick/69c08eb8a3601)
 
 ## Stats:
 
@@ -64,7 +90,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月23日 1:50:15 GMT+9<br>
+    更新日付 2026年3月24日 1:59:46 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
