@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Tuesday, March 24, 2026
+**Today is:** Wednesday, March 25, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,20 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 スペンサー・ジョンソンの『チーズはどこへ消えた？』は、周囲の変化にどう適応するかという話でした。クラウドセキュリティコンプライアンスの世界では、チーズ（設定画面）が常に動いています。Microsoftがメニュー名を変えた。Googleがトグルを別の管理パネルに移動した。丁寧に書いた実装ガイドが、もう存在しない画面を指している。お客様が古い手順に従って行き詰まる。❓
+
+この問題を解決するため、ベンダードキュメントを毎週自動クロールし、自社ガイドとの差分を検出するパイプラインを構築しました。Cloudflare WorkersのDurable Workflowで稼働し、Claudeによるセマンティック分析でUIパス変更・機能廃止・設定移動を検知します。120ソース規模でも週あたり約50セントで運用可能です。
+
+ドキュメントドリフトとは
+
+イソリアでは、ISMSやCISコントロールに基づくセキュリティ管理策の実装ガイドを管理しています。「Microsof…
+
+https://cogley.jp/articles/automating-vendor-doc-drift-detection](https://rick.status.lol/rick/69c1b551c7aa2)
+* [🔧 Spencer Johnson&#039;s Who Moved My Cheese? is about adapting when things change around you. In cloud security compliance, the cheese moves constantly. Microsoft renames a menu. Google moves a toggle to a different admin panel. Your carefully written implementation guide now points to a screen that no longer exists. Your client follows the old steps and hits a dead end. ❓
+
+We built an automated pipeline that crawls vendor documenta…
+
+https://cogley.jp/articles/automating-vendor-doc-drift-detection](https://rick.status.lol/rick/69c1b50080e26)
 * [🔧 AIによるクロール・要約の波が押し寄せています。GoogleのGemini、OpenAIのGPT、AnthropicのClaude、Perplexityなど、あらゆるエージェントがあなたのサイトにアクセスしています。HTMLを返せば、AcceptAcceptmermaid
 flowchart TD
     A[リクエスト受信] --&gt; B{Accept: text/markdownまたは ?format=md}
@@ -47,24 +61,6 @@ Cloudflare Pagesは廃止されるのか？
 しかしシグナルは明確だ。新機能はWorkersが先行（もしくはWorkers限定）で提供される。Secrets Store、Workflows、Containers、いずれもWorkers専用だ。Pagesはメンテ…
 
 https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/69c0bca2bcad4)
-* [🔧 AIエージェントが「Svelte 5での相当は？」と質問するとします。現状では2つの方法があります。ページのHTMLをスクレイピングしてパースするか、を取得して100以上の項目からコンテキスト内でフィルタリングするか。どちらも動作しますが、トークンの無駄遣いです。
-
-WebMCPを使えば、AIエージェントに第3の選択肢が生まれます。を呼び出すだけで、構造化された回答が直接返ってきます。データは同じ。インターフェースがエージェント向けに最適化されています。
-
-WebMCPとは
-
-WebMCPはW3Cコミュニティグループのドラフトで、ブラウザにを追加する仕様です。ウェブサイトがMCPツールをウェブページ上に直接登録できるようになります。Claudeのツール利用やCursorのコンテキストなど、エージェントフレームワークで使われるのと同じプロトコルです。サイトを閲覧するAIエージェントは、スクレイピングなしでツールを発見・呼び…
-
-https://cogley.jp/articles/enabling-webmcp-tools-sveltekit-migration-reference](https://rick.status.lol/rick/69c0a703b6fb2)
-* [🔧 同じ気持ちの方はいませんか？ React（またはVue、Angular）で何年もプロダクションコードを書き、依存配列と格闘し、バニラJSライブラリをフレームワーク固有のアダプターでラップし、がアプリ本体より重いことに疑問を感じている。そんなとき、Svelte 5のrunes — 、、 — を知って、何かがピンとくる。試してみたいけど、移行の道筋が見えない。
-
-そのギャップを埋めるために作ったのが svelte.cogley.jp です。
-
-svelte.cogley.jp とは
-
-React、Vue、AngularからSvelte 5とSvelteKitへの概念マッピングを、構文だけでなくアーキテクチャレベルで提供するインタラクティブリファレンスです。いわばフロントエンドフレームワークの「ロゼッタストーン」です。ソース言語（React、Vue、Angular）を選び、カテゴリ（概要、構文、アーキテクチャ、エコシステム）を選ぶと、各概念がどう…
-
-https://cogley.jp/articles/migrate-to-svelte-5-interactive-reference](https://rick.status.lol/rick/69c08eb8a3601)
 
 ## Stats:
 
@@ -90,7 +86,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月24日 1:59:46 GMT+9<br>
+    更新日付 2026年3月25日 2:00:32 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
