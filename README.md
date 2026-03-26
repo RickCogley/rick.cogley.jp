@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, March 26, 2026
+**Today is:** Friday, March 27, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,51 +16,47 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
-* [🔧 スペンサー・ジョンソンの『チーズはどこへ消えた？』は、周囲の変化にどう適応するかという話でした。クラウドセキュリティコンプライアンスの世界では、チーズ（設定画面）が常に動いています。Microsoftがメニュー名を変えた。Googleがトグルを別の管理パネルに移動した。丁寧に書いた実装ガイドが、もう存在しない画面を指している。お客様が古い手順に従って行き詰まる。❓
+* [🔧 I needed to run user-defined JavaScript templates from a database — code that formats RSS feed items into social media posts. The templates could be anything: hand-written, AI-generated, pasted from a blog. Running arbitrary code strings inside my production Worker, with access to D1 databases and R2 buckets, wasn&#039;t an option. 
 
-この問題を解決するため、ベンダードキュメントを毎週自動クロールし、自社ガイドとの差分を検出するパイプラインを構築しました。Cloudflare WorkersのDurable Workflowで稼働し、Claudeによるセマンティック分析でUIパス変更・機能廃止・設定移動を検知します。120ソース規模でも週あたり約50セントで運用可能です。
+Cloudflare&#039;s Dynamic Workers, released in March 2026, solved this. They l…
 
-ドキュメントドリフトとは
+https://cogley.jp/articles/cloudflare-dynamic-workers-sandboxed-code-execution-at-the-edge](https://rick.status.lol/rick/69c4b304c2d06)
+* [🔧 データベースに保存したJavaScriptテンプレートを実行する必要があった。RSSフィードのアイテムをSNS投稿にフォーマットするコードだ。テンプレートは何でもあり得る：手書き、AI生成、ブログからのコピペ。D1データベースやR2バケットにアクセスできる本番Worker内で任意のコード文字列を実行するわけにはいかない。
 
-イソリアでは、ISMSやCISコントロールに基づくセキュリティ管理策の実装ガイドを管理しています。「Microsof…
+2026年3月にリリースされたCloudflareのDynamic Workersがこれを解決した。親Workerが実行時にコード文字列から新しいWorkerを生成し、それぞれが独自のV8アイソレートで動作する。アクセス権限は親が明示的に制御する。自分のパブリッシングスタックに半日で組み込めた。
 
-https://cogley.jp/articles/automating-vendor-doc-drift-detection](https://rick.status.lol/rick/69c1b551c7aa2)
-* [🔧 Spencer Johnson&#039;s Who Moved My Cheese? is about adapting when things change around you. In cloud security compliance, the cheese moves constantly. Microsoft renames a menu. Google moves a toggle to a different admin panel. Your carefully written implementation guide now points to a screen that no longer exists. Your client follows the old steps and hits a dead end. ❓
+Dynamic Workers以前の問題
 
-We built an automated pipeline that crawls vendor documenta…
+データベースにJavaScript関数を保存し、Cloudflare Worker内で実行したい場合、選択肢は3つ——どれも問題があった：
 
-https://cogley.jp/articles/automating-vendor-doc-drift-detection](https://rick.status.lol/rick/69c1b50080e26)
-* [🔧 AIによるクロール・要約の波が押し寄せています。GoogleのGemini、OpenAIのGPT、AnthropicのClaude、Perplexityなど、あらゆるエージェントがあなたのサイトにアクセスしています。HTMLを返せば、AcceptAcceptmermaid
-flowchart TD
-    A[リクエスト受信] --&gt; B{Accept: text/markdownまたは ?format=md}
-    B --&gt;|はい| C[handleMarkdownRequest]
-    C --&gt; D{ルートに一致?}
-    D --&gt;|はい| E[Service Binding経由でAPIデータを取得]
-    E --&gt; F[Markdownとしてフォーマット]
-    F --&gt; G[Responseを返却text/markdown + ヘッダ]
-    D --&gt;|いいえ| H[SSRにフォールスルー]
-    B --&gt;|いいえ| H
-    H --&gt; I[通…
+/ ——Workerプロセス内でコードを実行する。すべてのバインディン…
 
-https://cogley.jp/articles/markdown-for-agents](https://rick.status.lol/rick/69c0e068e46fe)
-* [🔧 Vite 8は2026年3月12日にリリースされた。その2日後、筆者は8つのSvelteKitプロジェクトを移行し終えた。モノレポとスタンドアロンの混在構成で、すべてCloudflare Workersにデプロイしている。移行はほぼ機械的な作業で、ビルドも速くなった。いくつかの教訓を共有する。 ☕
+https://cogley.jp/articles/cloudflare-dynamic-workers](https://rick.status.lol/rick/69c4b2f60839f)
+* [🔧 データベースに保存したJavaScriptテンプレートを実行する必要があった。RSSフィードのアイテムをSNS投稿にフォーマットするコードだ。テンプレートは何でもあり得る：手書き、AI生成、ブログからのコピペ。D1データベースやR2バケットにアクセスできる本番Worker内で任意のコード文字列を実行するわけにはいかない。
 
-Vite 8で何が変わるのか
+2026年3月にリリースされたCloudflareのDynamic Workersがこれを解決した。親Workerが実行時にコード文字列から新しいWorkerを生成し、それぞれが独自のV8アイソレートで動作する。アクセス権限は親が明示的に制御する。自分のパブリッシングスタックに半日で組み込めた。
 
-Vite 8は、従来の「分裂型」バンドラアーキテクチャを置き換えるものだ。Vite 7では、開発時のトランスフォームと依存関係の最適化にesbuildを使い、本番ビルドではRollupに切り替えていた。2つの異なるツールが重複する仕事をし、それぞれの環境で微妙に異なる挙動を示していた。
+Dynamic Workers以前の問題
 
-Vite 8ではRolldownに統一される。RolldownはRustベースのバンドラで、OxcがJavaScriptのトランスフォームとミニファイを担い（esbuildの役割を置き換え）、Lightning CSSがCSSのミニファイを担当する。バ…
+データベースにJavaScript関数を保存し、Cloudflare Worker内で実行したい場合、選択肢は3つ——どれも問題があった：
 
-https://cogley.jp/articles/migrating-sveltekit-to-vite-8](https://rick.status.lol/rick/69c0db3db2c5b)
-* [🔧 CloudflareはPagesをWorkersに統合しつつある。Pagesが明日なくなるわけではないが、新機能はすべてWorkers側にのみ追加されている。筆者は2026年初頭に全PagesプロジェクトをWorkersへ移行し、その過程でつまずいたポイントをまとめた。
+/ ——Workerプロセス内でコードを実行する。すべてのバインディン…
 
-Cloudflare Pagesは廃止されるのか？
+https://cogley.jp/articles/cloudflare-dynamic-workers](https://rick.status.lol/rick/69c4b2d35f48b)
+* [🔧 I needed to run user-defined JavaScript templates from a database — code that formats RSS feed items into social media posts. The templates could be anything: hand-written, AI-generated, pasted from a blog. Running arbitrary code strings inside my production Worker, with access to D1 databases and R2 buckets, wasn&#039;t an option. 
 
-正確にはそうではない。RedditやHacker Newsでは「Pagesは非推奨」という声が多いが、実態は少し違う。Workersテックリードの Kenton Varda 氏は「Pages固有の機能をすべて汎用的なWorkers機能に変えていく」と述べている。つまり、製品が廃止されるのではなく、吸収されるのだ。
+Cloudflare&#039;s Dynamic Workers, released in March 2026, solved this. They l…
 
-しかしシグナルは明確だ。新機能はWorkersが先行（もしくはWorkers限定）で提供される。Secrets Store、Workflows、Containers、いずれもWorkers専用だ。Pagesはメンテ…
+https://cogley.jp/articles/cloudflare-dynamic-workers-sandboxed-code-execution-at-the-edge](https://rick.status.lol/rick/69c4b28f3a2ae)
+* [💬 Introducing Acrobat Standard features for use in administrative departments
 
-https://cogley.jp/articles/cloudflare-pages-to-workers-migration](https://rick.status.lol/rick/69c0bca2bcad4)
+From differences with Acrobat Reader to useful features and comparison with Acrobat Pro ☕
+
+https://blog.esolia.pro/en/posts/20260323-acrobat-standard-en/
+
+(Japanese version also available on the blog.)
+
+https://cogley.jp/posts/01KMKXZ4HJS10EEA8SRWJ9H0NX](https://rick.status.lol/rick/69c496bcbdfea)
 
 ## Stats:
 
@@ -86,7 +82,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月26日 2:01:05 GMT+9<br>
+    更新日付 2026年3月27日 2:00:56 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
