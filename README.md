@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, March 27, 2026
+**Today is:** Saturday, March 28, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,27 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🔧 Migrate to Svelte 5は、React・Vue・AngularからSvelte 5への移行リファレンスサイトです。フレームワーク間の概念対応表が約300件、構文・アーキテクチャ・エコシステムをカバーしています。
+
+人間がサイトを読んで調べる分にはそれで十分です。ただ、SvelteKitのコードベースでClaude Codeを使いながら「Svelteの最新機能を確認して、このリポジトリに適用できるものを見つけて」と頼みたい場面が増えてきました。AIエージェントが得意とする素早い横断分析です。データはサイトにあるのに、機械が問い合わせる手段がなかった。
+
+そこで 構造化パターンフィード と フィルタ可能なパターンページ を追加しました。背景と実装を記録します。
+
+静的な移行ガイドの限界
+
+移行ガイドは「SvelteでXはどう書く？」に答えるもの。開発者が質問を持って答えを探しに来るプル型のやりとりです。便利ですが、その形のやりとりに限…
+
+https://cogley.jp/articles/svelte-patterns-feed-ai-codebase-audits](https://rick.status.lol/rick/69c59f7515e51)
+* [🔧 My Migrate to Svelte 5 site started as a side-by-side reference for developers wanting to convert to Svelte 5, from React, Vue, or Angular. It maps concepts across frameworks: &quot;your  is Svelte&#039;s ,&quot; &quot;your  is ,&quot; and so on — about 300 entries covering syntax, architecture, and ecosystem. 
+
+That&#039;s useful, for a human reading the site. But I kept running into a different scenario: working in a SvelteKit codebase with Claude Code…
+
+https://cogley.jp/articles/svelte-patterns-feed-ai-codebase-audits](https://rick.status.lol/rick/69c59e6f3d27a)
+* [🔧 My Migrate to Svelte 5 site started as a side-by-side reference for developers wanting to convert to Svelte 5, from React, Vue, or Angular. It maps concepts across frameworks: &quot;your  is Svelte&#039;s ,&quot; &quot;your  is ,&quot; and so on — about 300 entries covering syntax, architecture, and ecosystem.
+
+That&#039;s useful, for a human reading the site. But I kept running into a different scenario: working in a SvelteKit codebase with Claude Code…
+
+https://cogley.jp/articles/svelte-patterns-feed-ai-codebase-audits](https://rick.status.lol/rick/69c5994b6184f)
 * [🔧 I needed to run user-defined JavaScript templates from a database — code that formats RSS feed items into social media posts. The templates could be anything: hand-written, AI-generated, pasted from a blog. Running arbitrary code strings inside my production Worker, with access to D1 databases and R2 buckets, wasn&#039;t an option. 
 
 Cloudflare&#039;s Dynamic Workers, released in March 2026, solved this. They l…
@@ -32,31 +53,6 @@ Dynamic Workers以前の問題
 / ——Workerプロセス内でコードを実行する。すべてのバインディン…
 
 https://cogley.jp/articles/cloudflare-dynamic-workers](https://rick.status.lol/rick/69c4b2f60839f)
-* [🔧 データベースに保存したJavaScriptテンプレートを実行する必要があった。RSSフィードのアイテムをSNS投稿にフォーマットするコードだ。テンプレートは何でもあり得る：手書き、AI生成、ブログからのコピペ。D1データベースやR2バケットにアクセスできる本番Worker内で任意のコード文字列を実行するわけにはいかない。
-
-2026年3月にリリースされたCloudflareのDynamic Workersがこれを解決した。親Workerが実行時にコード文字列から新しいWorkerを生成し、それぞれが独自のV8アイソレートで動作する。アクセス権限は親が明示的に制御する。自分のパブリッシングスタックに半日で組み込めた。
-
-Dynamic Workers以前の問題
-
-データベースにJavaScript関数を保存し、Cloudflare Worker内で実行したい場合、選択肢は3つ——どれも問題があった：
-
-/ ——Workerプロセス内でコードを実行する。すべてのバインディン…
-
-https://cogley.jp/articles/cloudflare-dynamic-workers](https://rick.status.lol/rick/69c4b2d35f48b)
-* [🔧 I needed to run user-defined JavaScript templates from a database — code that formats RSS feed items into social media posts. The templates could be anything: hand-written, AI-generated, pasted from a blog. Running arbitrary code strings inside my production Worker, with access to D1 databases and R2 buckets, wasn&#039;t an option. 
-
-Cloudflare&#039;s Dynamic Workers, released in March 2026, solved this. They l…
-
-https://cogley.jp/articles/cloudflare-dynamic-workers-sandboxed-code-execution-at-the-edge](https://rick.status.lol/rick/69c4b28f3a2ae)
-* [💬 Introducing Acrobat Standard features for use in administrative departments
-
-From differences with Acrobat Reader to useful features and comparison with Acrobat Pro ☕
-
-https://blog.esolia.pro/en/posts/20260323-acrobat-standard-en/
-
-(Japanese version also available on the blog.)
-
-https://cogley.jp/posts/01KMKXZ4HJS10EEA8SRWJ9H0NX](https://rick.status.lol/rick/69c496bcbdfea)
 
 ## Stats:
 
@@ -65,7 +61,7 @@ https://cogley.jp/posts/01KMKXZ4HJS10EEA8SRWJ9H0NX](https://rick.status.lol/rick
 | Total Files | 143 |
 | Repo Size in MB | 25 |
 | Lume Version | v3.0.11 |
-| Deno Version | 2.7.8 |
+| Deno Version | 2.7.9 |
 | V8 Version | 14.7.173.7-rusty |
 | Typescript Version | 5.9.2 |
 | Timezone | Asia/Tokyo |
@@ -82,7 +78,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年3月27日 2:00:56 GMT+9<br>
+    更新日付 2026年3月28日 1:59:50 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
