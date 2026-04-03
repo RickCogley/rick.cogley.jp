@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, April 3, 2026
+**Today is:** Saturday, April 4, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,21 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Heading to Sendai tomorrow for an onsen soak with A.
+
+https://cogley.jp/posts/01KN9PEWCE8AX6HCP0D6ZFYE9N](https://rick.status.lol/rick/69cfb876f02a5)
+* [🔧 SvelteKitのリポジトリを10ほど管理していて、開発にはAnthropicのClaude Codeを活用している。AIコーディングアシスタントは、特にプログラミング経験者にとっては高速かつ有能だが、速いからこそ厄介な問題がある。気をつけないと、見つけにくい形で一貫して間違えるのだ。
+
+「コードが実行しない」という問題ではない。それより ではなくを使う。D1のSQLにではなくテンプレートリテラルで値を埋め込む。データベースの書き込み結果を確認しない。load関数に4段階のネストされた非同期ロジックを詰め込む。コードは動くしTypeScriptも通る。PRのdiffでも問題ないように見える。
+
+問題は、（やその他のコーディングエージェント向けガイドファイル）に「常にを使え」「SQLを文字列補間するな」と書いても、それは制約ではなく提案に過ぎないということだ。AIはそれを読んで、従うこともあれば従わないこともある。忘れてもコンパイルエラーは出…
+
+https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://rick.status.lol/rick/69cfb1c732623)
+* [🔧 I manage about ten SvelteKit repositories deployed on Cloudflare Workers, and leveraged Anthropic&#039;s Claude Code to do it. Generally speaking, AI coding assistance can be fast and capable, especially if you already know how to code, but precisely because they are so fast, they can be — if you&#039;re not careful — consistently wrong in ways that are hard to spot. 
+
+Not wrong as in &quot;the code doesn&#039;t work.&quot; Wrong as in: it uses  in…
+
+https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://rick.status.lol/rick/69cfb1410d6c4)
 * [🔧 4月。新しいスーツ、新しいIDカード、新しいデスク。そしておそらく、すでにChatGPTやCopilotを使いこなしている自分。大学のレポートでもコーディング課題でも、AIは頼れる味方だったはずだ。🔥
 
 会社の研修でもAIツールの活用を推奨されるかもしれない。それ自体は悪いことではない。ただ、今この時期に「自分で考える」工程を飛ばすと、そのツケは何年も尾を引く。
@@ -36,27 +51,6 @@ Garbage In, Garbage Out
 GIGO is one of the oldest principles in computing, and it applies perfectly to AI-assisted development. When you ask an AI to…
 
 https://cogley.jp/articles/code-the-hard-way-before-using-ai](https://rick.status.lol/rick/69c7323269c3d)
-* [🔧 Migrate to Svelte 5は、React・Vue・AngularからSvelte 5への移行リファレンスサイトです。フレームワーク間の概念対応表が約300件、構文・アーキテクチャ・エコシステムをカバーしています。
-
-人間がサイトを読んで調べる分にはそれで十分です。ただ、SvelteKitのコードベースでClaude Codeを使いながら「Svelteの最新機能を確認して、このリポジトリに適用できるものを見つけて」と頼みたい場面が増えてきました。AIエージェントが得意とする素早い横断分析です。データはサイトにあるのに、機械が問い合わせる手段がなかった。
-
-そこで 構造化パターンフィード と フィルタ可能なパターンページ を追加しました。背景と実装を記録します。
-
-静的な移行ガイドの限界
-
-移行ガイドは「SvelteでXはどう書く？」に答えるもの。開発者が質問を持って答えを探しに来るプル型のやりとりです。便利ですが、その形のやりとりに限…
-
-https://cogley.jp/articles/svelte-patterns-feed-ai-codebase-audits](https://rick.status.lol/rick/69c59f7515e51)
-* [🔧 My Migrate to Svelte 5 site started as a side-by-side reference for developers wanting to convert to Svelte 5, from React, Vue, or Angular. It maps concepts across frameworks: &quot;your  is Svelte&#039;s ,&quot; &quot;your  is ,&quot; and so on — about 300 entries covering syntax, architecture, and ecosystem. 
-
-That&#039;s useful, for a human reading the site. But I kept running into a different scenario: working in a SvelteKit codebase with Claude Code…
-
-https://cogley.jp/articles/svelte-patterns-feed-ai-codebase-audits](https://rick.status.lol/rick/69c59e6f3d27a)
-* [🔧 My Migrate to Svelte 5 site started as a side-by-side reference for developers wanting to convert to Svelte 5, from React, Vue, or Angular. It maps concepts across frameworks: &quot;your  is Svelte&#039;s ,&quot; &quot;your  is ,&quot; and so on — about 300 entries covering syntax, architecture, and ecosystem.
-
-That&#039;s useful, for a human reading the site. But I kept running into a different scenario: working in a SvelteKit codebase with Claude Code…
-
-https://cogley.jp/articles/svelte-patterns-feed-ai-codebase-audits](https://rick.status.lol/rick/69c5994b6184f)
 
 ## Stats:
 
@@ -82,7 +76,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年4月3日 1:59:57 GMT+9<br>
+    更新日付 2026年4月4日 1:55:40 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
