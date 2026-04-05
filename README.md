@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Sunday, April 5, 2026
+**Today is:** Monday, April 6, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🚗 Sendai was great, very relaxing. We rented a Kei, expecting a beater, but getting a new Delica Mini. Wow, what a great little car! Drove 4 hours, cost 400 Yen to fill ‘er up.
+
+https://cogley.jp/posts/01KNEQM8K68YTJD77G86F26CT7](https://rick.status.lol/rick/69d24cbb9f9c0)
 * [💬 Heading to Sendai tomorrow for an onsen soak with A.
 
 https://cogley.jp/posts/01KN9PEWCE8AX6HCP0D6ZFYE9N](https://rick.status.lol/rick/69cfb876f02a5)
@@ -44,13 +47,6 @@ AIにコードを書かせるとき、あなたはプロンプトを渡してい
 REST APIの設計原則を理解していなければ、AIが出力したエンドポイント設計がまともかどうか判断できない。SQLを自分で書いた経験がなけれ…
 
 https://cogley.jp/articles/code-the-hard-way-before-using-ai](https://rick.status.lol/rick/69c73296d2ea4)
-* [🔧 Welcome to your first job. You&#039;ve probably already used ChatGPT or Copilot to get through assignments, and your new company might even encourage AI tools from day one. I&#039;m not here to tell you to avoid them forever. But if you skip the struggle now, you&#039;ll pay for it for years. 🔥
-
-Garbage In, Garbage Out
-
-GIGO is one of the oldest principles in computing, and it applies perfectly to AI-assisted development. When you ask an AI to…
-
-https://cogley.jp/articles/code-the-hard-way-before-using-ai](https://rick.status.lol/rick/69c7323269c3d)
 
 ## Stats:
 
@@ -76,7 +72,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年4月5日 1:53:15 GMT+9<br>
+    更新日付 2026年4月6日 1:53:41 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
