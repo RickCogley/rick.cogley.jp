@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Monday, April 6, 2026
+**Today is:** Tuesday, April 7, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,15 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 Let’s share your data using OneDrive!
+
+This article clearly explains how to securely and easily share files using Microsoft 365 OneDrive. ☕
+
+https://blog.esolia.pro/en/posts/2026406-using-onedrive-en/
+
+(Japanese version also available on the blog.)
+
+https://cogley.jp/posts/01KNG8AYM50WND0KZMPSGQD4RE](https://rick.status.lol/rick/69d313e8ce29b)
 * [🚗 Sendai was great, very relaxing. We rented a Kei, expecting a beater, but getting a new Delica Mini. Wow, what a great little car! Drove 4 hours, cost 400 Yen to fill ‘er up.
 
 https://cogley.jp/posts/01KNEQM8K68YTJD77G86F26CT7](https://rick.status.lol/rick/69d24cbb9f9c0)
@@ -34,19 +43,6 @@ https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://ric
 Not wrong as in &quot;the code doesn&#039;t work.&quot; Wrong as in: it uses  in…
 
 https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://rick.status.lol/rick/69cfb1410d6c4)
-* [🔧 4月。新しいスーツ、新しいIDカード、新しいデスク。そしておそらく、すでにChatGPTやCopilotを使いこなしている自分。大学のレポートでもコーディング課題でも、AIは頼れる味方だったはずだ。🔥
-
-会社の研修でもAIツールの活用を推奨されるかもしれない。それ自体は悪いことではない。ただ、今この時期に「自分で考える」工程を飛ばすと、そのツケは何年も尾を引く。
-
-ガベージ・イン、ガベージ・アウト
-
-コンピューティングで最も古い原則のひとつに、GIGO（Garbage In, Garbage Out）がある。ゴミを入れればゴミが出る。この原則は、AI時代の開発にそのまま当てはまる。
-
-AIにコードを書かせるとき、あなたはプロンプトを渡している。そのプロンプトの質は、あなた自身が何を理解しているかにかかっている。
-
-REST APIの設計原則を理解していなければ、AIが出力したエンドポイント設計がまともかどうか判断できない。SQLを自分で書いた経験がなけれ…
-
-https://cogley.jp/articles/code-the-hard-way-before-using-ai](https://rick.status.lol/rick/69c73296d2ea4)
 
 ## Stats:
 
@@ -72,7 +68,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年4月6日 1:53:41 GMT+9<br>
+    更新日付 2026年4月7日 1:59:04 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
