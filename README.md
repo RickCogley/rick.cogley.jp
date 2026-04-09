@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Thursday, April 9, 2026
+**Today is:** Friday, April 10, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,9 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💬 I have been successfully using Anthropic Claude and I like how it works. I was doing some due diligence yesterday testing alternatives, and I have to say I was not impressed with the Copilot included in M365 E5, especially because of the lack of integration with Sharepoint. Seems dumb that version of Copilot cannot save a file to a file library in Sharepoint. 👎
+
+https://cogley.jp/posts/01KNQTSGKEQ1PW9ATW53B7WENK](https://rick.status.lol/rick/69d6f57b9ff82)
 * [💬 Let’s share your data using OneDrive!
 
 This article clearly explains how to securely and easily share files using Microsoft 365 OneDrive. ☕
@@ -38,11 +41,6 @@ https://cogley.jp/posts/01KN9PEWCE8AX6HCP0D6ZFYE9N](https://rick.status.lol/rick
 問題は、（やその他のコーディングエージェント向けガイドファイル）に「常にを使え」「SQLを文字列補間するな」と書いても、それは制約ではなく提案に過ぎないということだ。AIはそれを読んで、従うこともあれば従わないこともある。忘れてもコンパイルエラーは出…
 
 https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://rick.status.lol/rick/69cfb1c732623)
-* [🔧 I manage about ten SvelteKit repositories deployed on Cloudflare Workers, and leveraged Anthropic&#039;s Claude Code to do it. Generally speaking, AI coding assistance can be fast and capable, especially if you already know how to code, but precisely because they are so fast, they can be — if you&#039;re not careful — consistently wrong in ways that are hard to spot. 
-
-Not wrong as in &quot;the code doesn&#039;t work.&quot; Wrong as in: it uses  in…
-
-https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://rick.status.lol/rick/69cfb1410d6c4)
 
 ## Stats:
 
@@ -68,7 +66,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年4月9日 2:01:31 GMT+9<br>
+    更新日付 2026年4月10日 2:01:49 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
