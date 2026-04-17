@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, April 17, 2026
+**Today is:** Saturday, April 18, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,31 +16,25 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [💼 東京で小さなITサービス会社を運営している。現在ISO/IEC 27001（国際ISMS規格・日本ではJIS Q 27001として同内容で採択されており、日本政府資料では多くの場合JIS表記が使われる）の取得作業を進めていて、その途中でSECURITY ACTION（セキュリティアクション）という制度にたどり着いた。IPA（情報処理推進機構）が運営していて、料金はかからず、宣言作業そのものは半日で終わる。日本で中小企業を経営していて、セキュリティに少しでも関心があるなら、この制度の存在くらいは知っておいていい。
+
+この記事は、この制度の存在を知らない中小企業経営者（特に、日本の制度に疎い外国人経営者）に向けて書いている。何かを売りたいわけではない。私が学んだことを共有しているだけだ。2026年4月のgBizID Prime必須化と、新設されるMETIのSCS（サプライチェーンセキュリティ）制度が組み合わさることで、この制度は半年前までの印象よりもずっと意味を持ち始…
+
+https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b7b5137c3)
+* [💼 I run an IT services firm in Tokyo. We&#039;re currently working through ISO/IEC 27001 certification — the international ISMS standard, adopted in Japan as JIS Q 27001 (the two documents are substantively identical; Japanese government materials cite the JIS flavor) — and somewhere in the middle of that process I stumbled onto something called SECURITY ACTION. It&#039;s run by the IPA (Information-technology Promotion Agency, Japan), costs noth…
+
+https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b7b4d2f4d)
+* [💼 I run an IT services firm in Tokyo. We&#039;re currently working through ISO/IEC 27001 certification — the international ISMS standard, adopted in Japan as JIS Q 27001 (the two documents are substantively identical; Japanese government materials cite the JIS flavor) — and somewhere in the middle of that process I stumbled onto something called SECURITY ACTION. It&#039;s run by the IPA (Information-technology Promotion Agency, Japan), costs noth…
+
+https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b66b149d9)
+* [💼 東京で小さなITサービス会社を運営している。現在ISO/IEC 27001（国際ISMS規格・日本ではJIS Q 27001として同内容で採択されており、日本政府資料では多くの場合JIS表記が使われる）の取得作業を進めていて、その途中でSECURITY ACTION（セキュリティアクション）という制度にたどり着いた。IPA（情報処理推進機構）が運営していて、料金はかからず、宣言作業そのものは半日で終わる。日本で中小企業を経営していて、セキュリティに少しでも関心があるなら、この制度の存在くらいは知っておいていい。
+
+この記事は、この制度の存在を知らない中小企業経営者（特に、日本の制度に疎い外国人経営者）に向けて書いている。何かを売りたいわけではない。私が学んだことを共有しているだけだ。2026年4月のgBizID Prime必須化と、新設されるMETIのSCS（サプライチェーンセキュリティ）制度が組み合わさることで、この制度は半年前までの印象よりもずっと意味を持ち始…
+
+https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b633628c6)
 * [💬 I have been successfully using Anthropic Claude and I like how it works. I was doing some due diligence yesterday testing alternatives, and I have to say I was not impressed with the Copilot included in M365 E5, especially because of the lack of integration with Sharepoint. Seems dumb that version of Copilot cannot save a file to a file library in Sharepoint. 👎
 
 https://cogley.jp/posts/01KNQTSGKEQ1PW9ATW53B7WENK](https://rick.status.lol/rick/69d6f57b9ff82)
-* [💬 Let’s share your data using OneDrive!
-
-This article clearly explains how to securely and easily share files using Microsoft 365 OneDrive. ☕
-
-https://blog.esolia.pro/en/posts/2026406-using-onedrive-en/
-
-(Japanese version also available on the blog.)
-
-https://cogley.jp/posts/01KNG8AYM50WND0KZMPSGQD4RE](https://rick.status.lol/rick/69d313e8ce29b)
-* [🚗 Sendai was great, very relaxing. We rented a Kei, expecting a beater, but getting a new Delica Mini. Wow, what a great little car! Drove 4 hours, cost 400 Yen to fill ‘er up.
-
-https://cogley.jp/posts/01KNEQM8K68YTJD77G86F26CT7](https://rick.status.lol/rick/69d24cbb9f9c0)
-* [💬 Heading to Sendai tomorrow for an onsen soak with A.
-
-https://cogley.jp/posts/01KN9PEWCE8AX6HCP0D6ZFYE9N](https://rick.status.lol/rick/69cfb876f02a5)
-* [🔧 SvelteKitのリポジトリを10ほど管理していて、開発にはAnthropicのClaude Codeを活用している。AIコーディングアシスタントは、特にプログラミング経験者にとっては高速かつ有能だが、速いからこそ厄介な問題がある。気をつけないと、見つけにくい形で一貫して間違えるのだ。
-
-「コードが実行しない」という問題ではない。それより ではなくを使う。D1のSQLにではなくテンプレートリテラルで値を埋め込む。データベースの書き込み結果を確認しない。load関数に4段階のネストされた非同期ロジックを詰め込む。コードは動くしTypeScriptも通る。PRのdiffでも問題ないように見える。
-
-問題は、（やその他のコーディングエージェント向けガイドファイル）に「常にを使え」「SQLを文字列補間するな」と書いても、それは制約ではなく提案に過ぎないということだ。AIはそれを読んで、従うこともあれば従わないこともある。忘れてもコンパイルエラーは出…
-
-https://cogley.jp/articles/engineering-backpressure-ai-code-quality](https://rick.status.lol/rick/69cfb1c732623)
 
 ## Stats:
 
@@ -66,7 +60,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年4月17日 2:02:40 GMT+9<br>
+    更新日付 2026年4月18日 1:59:41 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
