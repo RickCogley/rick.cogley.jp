@@ -1,6 +1,6 @@
 [![Deploy to Deno Deploy](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml/badge.svg)](https://github.com/rickcogley/rick.cogley.jp/actions/workflows/deploy.yml)
 
-**Today is:** Friday, April 24, 2026
+**Today is:** Saturday, April 25, 2026
 Rick Cogley's current events landing page page, generated via «[Lume ルメ](https://lume.land/)» SSG using [Vento](https://vento.js.org/) templates, and hosted on [Deno Deploy](https://deno.com/deploy) as static files.
 
 Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume CMS](https://lume.land/cms/), and Vento, for his great work coding useful tools, and for his help answering questions. 🙏🏻
@@ -16,6 +16,16 @@ Many thanks to [Óscar Otero](https://oscarotero.com/), creator of Lume, [Lume C
 
 ## Latest Statuses:
 
+* [🗾 There is a white canvas shoe sitting in the shoe-rack grid at the entrance of almost every Japanese primary school — a wall of small cubbies, roughly 25 cm on a side, one slot per child. The kid arrives, takes off their street shoes, slides them into their named cubby, pulls on the canvas pair that was waiting there, and walks upstairs to class. At the end of the day they swap back, and the canvas pair goes right back into the same cubby. The canvas…
+
+https://cogley.jp/articles/japanese-shoes](https://rick.status.lol/rick/69eb5f7c1534f)
+* [🗾 日本の小学校の下足箱（入口の壁に並ぶ、児童ひとりに一枠ずつ割り当てられた約25cm四方のマス目）には、ほぼ必ず白いキャンバスの靴が並んでいる。生徒は朝登校すると、街で履いてきた靴を脱いで自分のマスに入れ、そこに入っていたキャンバスの靴に履き替え、教室に向かう。下校時には履き替えて、キャンバスの靴を同じマスに戻す。この靴は上履きと呼ばれ、素材そのものにはズックというカタカナの名前がついている。カタカナで書かれているということは、外来語であることを示している。  ℹ️
+
+そのとおり、外来語だ。遠い海路を経て、オランダ語の doek（ドーク、意味は「布」）に由来している。17世紀、オランダ商人が出島経由で織物を持ち込み、その同じ単語は2世紀後、英語に渡ってダック（duck）キャンバスの語源にもなった。綿、キャンバス、ひとつのオランダ語。この糸が、アムステルダムの港から子どもの上履きまで、一本につながっている。そして日本の靴の物語は、まさにここから始まる。
+
+私は横浜に住んでいる。数年前、日本で暮らし…
+
+https://cogley.jp/articles/japanese-shoes](https://rick.status.lol/rick/69eb5f7c3bbb1)
 * [🔧 AI crawlers — Gemini, GPT, Claude, Perplexity — are reading your site constantly, and they&#039;d rather parse markdown than HTML. Markdown means cleaner context, fewer tokens, cheaper inference for them, which translates (via the economics of who pays for those tokens) into more efficient use of everyone&#039;s budget. If an agent is going to summarize your page anyway, giving it markdown directly means it spends its token budget on your…
 
 https://cogley.jp/articles/cloudflare-workers-html-to-markdown](https://rick.status.lol/rick/69e5456a009b1)
@@ -31,12 +41,6 @@ https://cogley.jp/articles/cloudflare-workers-html-to-markdown](https://rick.sta
 この記事は、この制度の存在を知らない中小企業経営者（特に、日本の制度に疎い外国人経営者）に向けて書いている。何かを売りたいわけではない。私が学んだことを共有しているだけだ。2026年4月のgBizID Prime必須化と、新設されるMETIのSCS（サプライチェーンセキュリティ）制度が組み合わさることで、この制度は半年前までの印象よりもずっと意味を持ち始…
 
 https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b7b5137c3)
-* [💼 I run an IT services firm in Tokyo. We&#039;re currently working through ISO/IEC 27001 certification — the international ISMS standard, adopted in Japan as JIS Q 27001 (the two documents are substantively identical; Japanese government materials cite the JIS flavor) — and somewhere in the middle of that process I stumbled onto something called SECURITY ACTION. It&#039;s run by the IPA (Information-technology Promotion Agency, Japan), costs noth…
-
-https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b7b4d2f4d)
-* [💼 I run an IT services firm in Tokyo. We&#039;re currently working through ISO/IEC 27001 certification — the international ISMS standard, adopted in Japan as JIS Q 27001 (the two documents are substantively identical; Japanese government materials cite the JIS flavor) — and somewhere in the middle of that process I stumbled onto something called SECURITY ACTION. It&#039;s run by the IPA (Information-technology Promotion Agency, Japan), costs noth…
-
-https://cogley.jp/articles/japan-ipa-security-action-sme](https://rick.status.lol/rick/69e1b66b149d9)
 
 ## Stats:
 
@@ -62,7 +66,7 @@ Footer:
 >
   <div class="w-100 ph3 pv5 bg-black-70">
     <span class="white-40"><small>&copy; <span id="copyright-year"></span> , juo00oc@gmail.com<br>
-    更新日付 2026年4月24日 2:04:27 GMT+9<br>
+    更新日付 2026年4月25日 2:00:12 GMT+9<br>
     本日は<span id="holiday"></span><br></small></span>
     <a
       rel="me"
